@@ -1,0 +1,35 @@
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+.descriptionTitle {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.descriptionText {
+    font-size: 24px;
+    width: 70%;
+    display: grid;
+    gap: 10px;
+}
+
+.homeworkDescription {
+    background: linear-gradient(90deg, #05B86E 0%, #00BAC5 100%);
+    color: white;
+    margin-bottom: 5%;
+}
+
+.descriptionTitleHomework {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.descriptionTextHomework {
+    width: 50%;
+    font-size: 24px;
+}
