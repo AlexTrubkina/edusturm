@@ -38,7 +38,7 @@
 }
 
 .buttonRate:hover {
-    background:  #38C4BD;
+    background-color: transparent;
     color: #000000;
     border: 1px solid #000000;
 }

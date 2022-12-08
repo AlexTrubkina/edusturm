@@ -1,0 +1,27 @@
+.courseFaces {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.courseFace {
+    display: flex;
+    flex-direction: row;
+    background: #F4F4F4;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 100%;
+    margin-bottom:  5%;
+}
+
+.textCourse {
+    font-size: 20px;
+    width: 70%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
