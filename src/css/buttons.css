@@ -8,6 +8,10 @@
     border: 0px;
 }
 
+.greenButton:hover {
+    background: radial-gradient(100% 100% at 50% 0%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(90deg, #2CAAA4 0%, #026785 100%);
+}
+
 .moreCourses {
     background: #F4F4F4;
     border: 1px solid #434343;
@@ -19,6 +23,11 @@
     font-weight: bold;
 }
 
+.moreCourses:hover {
+    background: #000000;
+    color: white;
+}
+
 .buttonRate {
     background: #000000;
     color: white;
@@ -26,6 +35,12 @@
     height: 60px;
     border-radius: 10px;
     border: 0px;
+}
+
+.buttonRate:hover {
+    background:  #38C4BD;
+    color: #000000;
+    border: 1px solid #000000;
 }
 
 .socialButton {
