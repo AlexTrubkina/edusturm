@@ -21,7 +21,7 @@
 .homeworkDescription {
     background: linear-gradient(90deg, #05B86E 0%, #00BAC5 100%);
     color: white;
-    margin-bottom: 5%;
+    margin-bottom: -40px;
 }
 
 .descriptionTitleHomework {
