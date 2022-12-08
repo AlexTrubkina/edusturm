@@ -1,0 +1,41 @@
+.courseFace {
+    display: flex;
+    flex-direction: row;
+    background: #F4F4F4;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 100%;
+    margin-bottom:  5%;
+}
+
+.textCourse {
+    font-size: 20px;
+    width: 70%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.info ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+.addInfo {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.textInfo {
+    margin-bottom: 5%;
+}
+
+.textInfo h1 {
+    font-weight: bolder;
+}
