@@ -1,0 +1,100 @@
+.feedback {
+    background: #F4F4F4;
+    padding-top: 5%;
+    margin-bottom: 3%;
+    padding-bottom: 5%;
+}
+
+.bodyFeedback {
+    margin-top: 3%;
+    display: flex;
+    gap: 5%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.message {
+    width: 50%
+}
+
+.messageHeader h4 {
+    font-size: bold;
+}
+
+.messageText {
+    font-weight: bold;
+    font-size: 20px
+}
+
+@media (max-width: 991px) {
+    .bodyFeedback img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .messageText {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .bodyFeedback img {
+        display: none;
+    }
+
+    .carousel-control-prev {
+        display: none;
+    }
+
+    .carousel-control-next {
+        position: relative;
+        top: -50px;
+        left: 80%;
+    }
+
+    .carousel-indicators {
+        position: relative;
+        top: 420px;
+        left: -200px;
+    }
+
+    .carousel-indicators button{
+        background: #C0C0C0 ;
+        width: 15px !important;
+        height: 15px !important;
+        border-radius: 50%;
+    }
+
+    .bodyFeedback {
+        padding-bottom: 100px;
+        padding-top: 3%;
+        padding-left: 3%;
+        background-color: #D9D9D9;
+        border-radius: 10px;
+    }
+
+    .message {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-indicators {
+        display: none;
+    }
+
+    .carousel-control-prev {
+        position: relative;
+        left: 80%;
+    }
+
+    .carousel-control-next {
+        position: relative;
+        top: -28px;
+        left: 91%;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 85px;
+        height: 30px;
+    }
+}

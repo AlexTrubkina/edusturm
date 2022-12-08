@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url('../../../fonts/static/Montserrat-Regular.ttf');
+}
+
+* {
+    font-family: Montserrat;
+}
+
+.firstBlock {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textInPic h1 {
+    font-size: 48px;
+    margin-bottom: 5%;
+}
+
+.textInPic ul {
+    list-style-image: url("../../../images/marker.svg");
+    font-size: 24px;
+    margin-bottom: 10%;
+}
+
+.textInPic ul li {
+    margin-bottom: 20px;
+}
+
+.textInPic {
+    position: relative;
+    top: -550px;
+    left: 7%;
+    width: 497px;
+    margin-bottom: -300px;
+}
+
+.imageInCircle {
+    background: linear-gradient(180deg, #65E2DC 0%, #38C4BD 100%);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding-top: 0.8rem;
+    padding-left: 0.7rem;
+}
+
+.listOfPros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.coupleOfProps {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.textForProps {
+    width: 260px;
+}
+
+.circleWithText {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.textAbout {
+    width: 530px
+}
+
+.textAbout p{
+    font-size: 20px;
+}
+
+.textAbout h1{
+    margin-bottom: 5%;
+}
+
+
+@media (max-width: 1199px) {
+    .textInPic {
+        top: -450px;
+    }
+
+    .textForProps {
+        width: 200px;
+    }
+
+    .about img {
+        width: 50%;
+    }
+
+    .textAbout p {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .textInPic h1 {
+        font-size: 38px;
+    }
+
+    .textInPic ul {
+        font-size: 16px;
+        margin-bottom: 10%;
+    }
+
+    .textInPic {
+        top: -390px;
+    }
+
+    .listOfPros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .coupleOfProps {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about img {
+        width: 100%;
+    }
+
+
+    .textAbout {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .mobileHeader{
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .textInPic h1 {
+        display: none;
+    }
+
+    .mobileHeader h1 {
+        font-weight: bold;
+    }
+
+    .mobileHeader {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .textInPic ul {
+        margin-top: 10%;
+        list-style-image: url("../../../images/bulletMobile.svg");
+    }
+
+    .textInPic {
+        top: 0;
+        margin-bottom: 10%;
+        width: inherit;
+    }
+
+    .coupleOfProps {
+        flex-direction: column;
+        gap: 30px;
+    }
+}

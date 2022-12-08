@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url('../../../fonts/static/Montserrat-Regular.ttf');
+}
+
+* {
+    font-family: Montserrat;
+}
+
+.headOfCourse {
+    display: flex;
+    flex-direction: row;
+    background: #F4F4F4;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 5%;
+    height: 500px;
+    margin-bottom:  5%;
+}
+
+.textHeadCourse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.description {
+    font-size: 20px;
+}
+
+.iconHeadCourseComputer {
+    height: 90%;
+}
+
+@media (min-width: 992px) {
+    .iconHeadCourseMobile {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .headOfCourse {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .iconHeadCourseMobile {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 50%;
+    }
+
+    .textHeadCourse {
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .iconHeadCourseComputer {
+        display: none;
+    }
+
+    .textHeadCourse h1 {
+        font-size: 30px;
+    }
+
+    .description {
+        font-size: 16px;
+        margin-bottom: 4%;
+    }
+}
+
+@media (max-width: 767px) {
+    .iconHeadCourseMobile {
+        width: 100%;
+    }
+}

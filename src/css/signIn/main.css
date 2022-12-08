@@ -1,0 +1,19 @@
+.formSignIn {
+    width: 480px;
+    height: 500px;
+    background: linear-gradient(180deg, #65E2DC 0%, #38C4BD 100%);
+    border-radius: 10px;
+    padding-top: 54px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 6%;
+    margin-bottom: 18%;;
+}
+
+.formSignIn input {
+    height: 50px;
+}
+
+.noRegistaration {
+    margin-top: 30px;
+}

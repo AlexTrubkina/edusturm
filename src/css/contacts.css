@@ -1,0 +1,69 @@
+.contactsBlocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.getContacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    margin-bottom: 2%;
+    background-color: #DCDCDC;
+    color: black;
+    font-size: 13px;
+}
+
+.contactsBigText {
+    font-size: 25px;
+}
+
+.conditions {
+    font-size: 10px;
+    width: 70%;
+}
+
+.textContacts {
+    margin-top: 3%;
+    width: 30%;
+}
+@media (max-width: 991px) {
+    .getContacts {
+        width: 50%;
+    }
+
+    .contactsBigText {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contactsBlocks {
+        flex-direction: column;
+        margin-bottom: 5%;
+    }
+
+    .textContacts {
+        width: 100%;
+    }
+
+    .getContacts {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .contacts h1 {
+        display: none;
+    }
+
+    .textCourse h3 {
+        font-size: 20px;
+    }
+
+    .duration {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url('../../../fonts/static/Montserrat-Regular.ttf');
+}
+
+* {
+    font-family: Montserrat;
+}
+
+.headNews {
+    background: radial-gradient(100% 100% at 50% 0%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(90deg, #05B86E 0%, #2CAAA4 48.75%, #026785 100%);
+    border-radius: 20px;
+    color: white;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+}
+
+.headNews h1 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.textNews {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.textNews h1 {
+    margin-bottom: 3%;
+}

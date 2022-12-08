@@ -1,0 +1,87 @@
+.info ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+.addInfo {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.textInfo {
+    margin-bottom: 5%;
+}
+
+.textInfo h1 {
+    font-weight: bolder;
+}
+
+.usersCourse {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.userCourse {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+
+.userCourse img {
+    height: 150px;
+}
+
+.textUserCourse {
+    width: 50%
+}
+
+@media (max-width: 991px) {
+    .usersCourse {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .userCourse {
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+    }
+
+    .textUserCourse {
+        width: 100%
+    }
+
+    .userCourse img {
+        width: 150px;
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 767px) {
+    .info ul {
+        flex-direction: column;
+        justify-content: space-between;
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 5%;
+    }
+
+    .info li::marker {
+        font-size: 3rem;
+    }
+
+    .usersCourse {
+
+        flex-direction: column;
+    }
+}
