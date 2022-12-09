@@ -4,10 +4,7 @@
     background: #F4F4F4;
     border-radius: 20px;
     justify-content: space-between;
-    padding-top: 5%;
-    padding-left: 3%;
-    padding-right: 8%;
-    padding-bottom: 3%;
+    padding: 5% 5% 3% 3%;
     height: 100%;
     margin-bottom:  5%;
 }
