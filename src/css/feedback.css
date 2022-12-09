@@ -17,7 +17,22 @@
     width: 50%
 }
 
-.messageHeader h4 {
+.messageHeader img {
+    width: 20%;
+    height: 20%;
+    margin-right: 3%;
+}
+
+.messageHeader {
+    display: flex;
+    margin-bottom: 3%;
+}
+
+.messageHeaderText h4 {
+    font-weight: 600;
+}
+
+.messageText h4 {
     font-size: bold;
 }
 
@@ -42,7 +57,7 @@
 
 
 @media (max-width: 991px) {
-    .bodyFeedback img {
+    .bodyFeedbackImg {
         width: 400px;
         height: 400px;
     }
@@ -53,7 +68,7 @@
 }
 
 @media (max-width: 767px) {
-    .bodyFeedback img {
+    .bodyFeedbackImg {
         display: none;
     }
 

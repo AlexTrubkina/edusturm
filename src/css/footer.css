@@ -1,0 +1,17 @@
+@media (max-width: 767px) {
+    .computerFooter {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .mobileFooter {
+        display: none;
+    }
+}
+
+@media (max-width: 333px) {
+    .mobileFooter .text-dark{
+        font-size: 14px;
+    }
+}
