@@ -1,0 +1,28 @@
+.formSettings {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.settingsText {
+    background: #F4F4F4;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    padding: 3%;
+    width: 50%;
+    height: 100%;
+    color: #696E76;
+}
+
+.emailWarningText {
+    color: #696E76;
+    font-size: 16px;
+}
+
+.form-label {
+    color: #696E76;
+}
+
+.form-control {
+    background: #F4F4F4;
+}

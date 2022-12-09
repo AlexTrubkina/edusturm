@@ -1,0 +1,23 @@
+.payments {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.payment {
+    background: linear-gradient(90deg, rgba(5, 184, 110, 0.5) 0%, rgba(56, 196, 189, 0.5) 100%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 3%;
+    align-items: center;
+}
+
+.contentPersonalAccount {
+    width: 70%;
+}
+
+.price {
+    font-size: 24px;
+}

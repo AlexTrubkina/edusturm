@@ -1,0 +1,44 @@
+.personalAccountBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.list-group {
+    box-shadow: 0px 0px 40px 1px #F0F0F0;
+    height: 100%;
+    padding-top: 1%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+}
+
+.list-group-item a {
+    color: #696E76;
+    text-decoration: none;
+    font-size: 16px;
+    width: 210px;
+}
+
+.list-group-item a:active {
+    color: #000000;
+    font-weight: 500;
+}
+
+.list-group-item a:hover {
+    color: #000000;
+    font-weight: 500;
+}
+
+.contentPersonalAccount {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px #F0F0F0;
+    border-radius: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 5%;
+}
