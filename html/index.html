@@ -23,9 +23,12 @@
                     <img src="../images/logo.svg" alt="logo">
                     EDUSTURM
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <div class="d-flex">
+                    <a class="nav-link" id="enter" href="#">Войти</a>
+                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="../images/toggleIcon.svg" alt="Toggle Icon">
+                    </button>
+                </div>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class='navbar-nav me-auto mb-2 mb-lg-0'></ul>
                     <ul class="navbar-nav">
@@ -47,7 +50,6 @@
                         <button type="button" name="button" class="profileButton">
                             <img src="../images/profile.svg" alt="Profile">
                         </button>
-
                     </ul>
                 </div>
             </div>
@@ -66,7 +68,7 @@
                         <li>Действуйте!</li>
                     </ul>
                     <button class="greenButton">Получить курс</button>
-                </div>                
+                </div>
             </div>
             <div class="mobileHeader">
                 <h1>Почему мы?</h1>
@@ -209,33 +211,58 @@
         </div>
     </div>
     <div class="container">
-        <div class="news">
-            <h1><b>Новости</b></h1>
-            <div class='cardsOfNews'>
-                <div class="card" style="width: 18rem;">
-                    <img src="../images/youngMan.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">22 апреля, 2022</p>
-                        <h5 class="card-title">Почему стоит выбирать онлайн-школу?</h5>
-                        <a href="#">Читать подробнее...</a>
-                    </div>
+        <h1><b>Новости</b></h1>
+        <div class="news d-flex justify-content-center">
+
+            <div id="carouselNews" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselNews" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselNews" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselNews" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="../images/youngWoman.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">22 апреля, 2022</p>
-                        <h5 class="card-title">Почему стоит выбирать онлайн-школу?</h5>
-                        <a href="#">Читать подробнее...</a>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../images/youngMan.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">22 апреля, 2022</p>
+                                <h5 class="card-title">Почему стоит выбирать онлайн-школу?</h5>
+                                <a href="#">Читать подробнее...</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="../images/youngMan.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">22 апреля, 2022</p>
-                        <h5 class="card-title">Почему стоит выбирать онлайн-школу?</h5>
-                        <a href="#">Читать подробнее...</a>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../images/youngWoman.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">22 апреля, 2022</p>
+                                <h5 class="card-title">Почему стоит выбирать онлайн-школу?</h5>
+                                <a href="#">Читать подробнее...</a>
+                            </div>
+                        </div>
                     </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../images/youngMan.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">22 апреля, 2022</p>
+                                <h5 class="card-title">Почему стоит выбирать онлайн-школу?</h5>
+                                <a href="#">Читать подробнее...</a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselNews" data-bs-slide="prev">
+
+                    <img src="../images/arrowPrev.svg" alt="Prev arrow">
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselNews" data-bs-slide="next">
+
+                    <img src="../images/arrowNext.svg" alt="Next Arrow">
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
         <div class="about">
@@ -259,10 +286,10 @@
     <div class="feedback">
         <div class="container">
             <h1><b>Отзывы</b></h1>
-            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div id="carouselFeedback" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselFeedback" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselFeedback" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
@@ -300,12 +327,12 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselFeedback" data-bs-slide="prev">
 
                     <img src="../images/arrowPrev.svg" alt="Prev arrow">
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselFeedback" data-bs-slide="next">
 
                     <img src="../images/arrowNext.svg" alt="Next Arrow">
                     <span class="visually-hidden">Next</span>

@@ -26,6 +26,21 @@
     font-size: 20px
 }
 
+
+ .carousel-indicators {
+    right: 60%;
+    bottom: 5%;
+}
+
+ .carousel .carousel-indicators button {
+    background-color: #C0C0C0;
+}
+
+ .carousel .carousel-indicators button.active {
+    background-color: #38C4BD;
+}
+
+
 @media (max-width: 991px) {
     .bodyFeedback img {
         width: 400px;
@@ -42,24 +57,18 @@
         display: none;
     }
 
-    .carousel-control-prev {
+     .carousel-control-prev {
         display: none;
     }
 
-    .carousel-control-next {
+     .carousel-control-next {
         position: relative;
         top: -50px;
         left: 80%;
     }
 
-    .carousel-indicators {
-        position: relative;
-        top: 420px;
-        left: -200px;
-    }
-
-    .carousel-indicators button{
-        background: #C0C0C0 ;
+     .carousel-indicators button {
+        background: #C0C0C0;
         width: 15px !important;
         height: 15px !important;
         border-radius: 50%;
@@ -79,16 +88,16 @@
 }
 
 @media (min-width: 768px) {
-    .carousel-indicators {
+     .carousel-indicators {
         display: none;
     }
 
-    .carousel-control-prev {
+     .carousel-control-prev {
         position: relative;
         left: 80%;
     }
 
-    .carousel-control-next {
+     .carousel-control-next {
         position: relative;
         top: -28px;
         left: 91%;
