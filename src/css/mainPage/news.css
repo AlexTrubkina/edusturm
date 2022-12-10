@@ -5,55 +5,72 @@
 
 #carouselNews {
     margin-top: 5%;
-    margin-bottom: 5%;
 }
+
+
 
 .card-body a {
     color: #000000;
 }
-@media (max-width: 991px) {
-    #carouselNews .carousel-inner .carousel-item > div {
-        display: none;
-    }
-    #carouselNews .carousel-inner .carousel-item > div:first-child {
-        display: block;
-    }
-
-    #carouselNews {
-        width: 25%;
-    }
-}
-
-@media (min-width: 992px) {
-
-    #carouselNews .carousel-inner .carousel-item.active,
-    #carouselNews .carousel-inner .carousel-item-next,
-    #carouselNews .carousel-inner .carousel-item-prev {
-        display: flex;
-    }
-
-    #carouselNews .carousel-inner .carousel-item {
-        justify-content: space-between;
-    }
-
-    #carouselNews .carousel-inner .carousel-item-end.active,
-    #carouselNews .carousel-inner .carousel-item-next {
-        transform: translateX(25%);
-    }
-
-    #carouselNews .carousel-inner .carousel-item-start.active,
-    #carouselNews .carousel-inner .carousel-item-prev {
-        transform: translateX(-25%);
-    }
-
-    #carouselNews .carousel-inner .carousel-item-end,
-    #carouselNews .carousel-inner .carousel-item-start {
-      transform: translateX(0);
-    }
-}
-
 
 .card-title {
     font-weight: bold;
     font-size: 16px;
+}
+
+@media (max-width: 991px) {
+    .carouselNewsContainer {
+        width: 20rem;
+    }
+    #carouselNews .carousel-control-next,
+    #carouselNews .carousel-control-prev {
+        display: none;
+    }
+
+    #carouselNews .carousel-indicators {
+        position: relative;
+        top: 460px;
+    }
+
+    .carouselNewsContainerUpper {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10%;
+    }
+}
+
+@media (min-width: 992px) {
+    #carouselNews .carousel-inner {
+        display: flex;
+    }
+
+    #carouselNews .carousel-indicators {
+        display: none;
+    }
+
+    #carouselNews .carousel-item {
+        margin-right: 0;
+        flex: 0 0 33.333333%;
+        display: block;
+    }
+
+    #carouselNews .carousel-control-prev {
+        position: relative;
+        left: 80%;
+        top: -450px;
+    }
+
+    #carouselNews .carousel-control-next {
+        position: relative;
+        left: 91%;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 85px;
+        height: 30px;
+        top: -477px;
+    }
+}
+
+#carouselNews .carousel-inner {
+    padding: 1em;
 }
