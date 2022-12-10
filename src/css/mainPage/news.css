@@ -8,15 +8,50 @@
     margin-bottom: 5%;
 }
 
-
 .card-body a {
     color: #000000;
 }
+@media (max-width: 991px) {
+    #carouselNews .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    #carouselNews .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
 
-.cardsOfNews {
-    margin-top: 3%;
-    margin-bottom: 5%;
+    #carouselNews {
+        width: 25%;
+    }
 }
+
+@media (min-width: 992px) {
+
+    #carouselNews .carousel-inner .carousel-item.active,
+    #carouselNews .carousel-inner .carousel-item-next,
+    #carouselNews .carousel-inner .carousel-item-prev {
+        display: flex;
+    }
+
+    #carouselNews .carousel-inner .carousel-item {
+        justify-content: space-between;
+    }
+
+    #carouselNews .carousel-inner .carousel-item-end.active,
+    #carouselNews .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    #carouselNews .carousel-inner .carousel-item-start.active,
+    #carouselNews .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+
+    #carouselNews .carousel-inner .carousel-item-end,
+    #carouselNews .carousel-inner .carousel-item-start {
+      transform: translateX(0);
+    }
+}
+
 
 .card-title {
     font-weight: bold;

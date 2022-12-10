@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../src/css/feedback.css">
     <link rel="stylesheet" href="../src/css/contacts.css">
     <link rel="stylesheet" href="../src/css/footer.css">
+    <link rel="stylesheet" href="../src/css/nav.css">
     <title>Главная страница</title>
 </head>
 
@@ -149,7 +150,7 @@
             </div>
         </div>
     </div>
-    <div class="courses">
+    <div class="courses" id="courses">
         <div class="container">
             <h1>
                 <b>Курсы</b>
@@ -162,7 +163,6 @@
                                 Курсы
                                 <h3>Python Basic</h3>
                             </div>
-
                             <div class="duration">2 месяца</div>
                         </div>
                         <img src="../images/iconPython.png" alt="Python">
@@ -211,61 +211,60 @@
         </div>
     </div>
     <div class="container">
-        <h1><b>Новости</b></h1>
-        <div class="news d-flex justify-content-center">
+        <div id="news">
+            <h1><b>Новости</b></h1>
+            <div class="d-flex justify-content-center ">
+                <div id="carouselNews" class="carousel slide w-100" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselNews" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselNews" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselNews" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <div class="card" style="width: 18rem;">
+                                <img src="../images/youngMan.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">22 апреля, 2022</p>
+                                    <h5 class="card-title">Почему стоит выбирать онлайн-школу?</h5>
+                                    <a href="#">Читать подробнее...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <div class="card" style="width: 18rem;">
+                                <img src="../images/youngWoman.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">22 апреля, 2022</p>
+                                    <h5 class="card-title">Почему стоит выбирать онлайн-школу?</h5>
+                                    <a href="#">Читать подробнее...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <div class="card" style="width: 18rem;">
+                                <img src="../images/youngMan.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">22 апреля, 2022</p>
+                                    <h5 class="card-title">Почему стоит выбирать онлайн-школу?</h5>
+                                    <a href="#">Читать подробнее...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselNews" data-bs-slide="prev">
+                        <img src="../images/arrowPrev.svg" alt="Prev arrow">
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselNews" data-bs-slide="next">
 
-            <div id="carouselNews" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselNews" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselNews" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselNews" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <img src="../images/arrowNext.svg" alt="Next Arrow">
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <div class="card" style="width: 18rem;">
-                            <img src="../images/youngMan.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">22 апреля, 2022</p>
-                                <h5 class="card-title">Почему стоит выбирать онлайн-школу?</h5>
-                                <a href="#">Читать подробнее...</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="10000">
-                        <div class="card" style="width: 18rem;">
-                            <img src="../images/youngWoman.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">22 апреля, 2022</p>
-                                <h5 class="card-title">Почему стоит выбирать онлайн-школу?</h5>
-                                <a href="#">Читать подробнее...</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="10000">
-                        <div class="card" style="width: 18rem;">
-                            <img src="../images/youngMan.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">22 апреля, 2022</p>
-                                <h5 class="card-title">Почему стоит выбирать онлайн-школу?</h5>
-                                <a href="#">Читать подробнее...</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselNews" data-bs-slide="prev">
-
-                    <img src="../images/arrowPrev.svg" alt="Prev arrow">
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselNews" data-bs-slide="next">
-
-                    <img src="../images/arrowNext.svg" alt="Next Arrow">
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
         </div>
-        <div class="about">
+        <div class="about" id="about">
             <div class="textAbout">
                 <h1>О нас</h1>
                 <p>
@@ -298,7 +297,7 @@
                             <div class="message">
                                 <div class="messageHeader">
                                     <img src="../images/avatar.png" alt="Avatar">
-                                    <div class="a">
+                                    <div class="messageHeaderText">
                                         <h4>Иван Иванов</h4>
                                         <p>Графический дизайнер</p>
                                     </div>
@@ -347,7 +346,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="contacts">
+        <div class="contacts" id="contacts">
             <h1><b>Контакты</b></h1>
             <div class="contactsBlocks">
                 <div class="textContacts">
@@ -416,6 +415,7 @@
                 </div>
         </footer>
     </div>
+    <script type="text/javascript" src="../src/js/multipleCarousel.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 

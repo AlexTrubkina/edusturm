@@ -1,0 +1,17 @@
+@media (max-width: 390px) {
+    .navbar-brand {
+        font-size: 0.8rem !important;
+    }
+
+    .navbar-brand {
+        width: 25%;
+    }
+
+    .navbar-brand img {
+        width: 50%;
+    }
+
+    #enter {
+        font-size: 0.8rem;
+    }
+}

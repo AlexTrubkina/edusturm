@@ -41,20 +41,18 @@
     font-size: 20px
 }
 
-
- .carousel-indicators {
+.carousel-indicators {
     right: 60%;
     bottom: 5%;
 }
 
- .carousel .carousel-indicators button {
+.carousel .carousel-indicators button {
     background-color: #C0C0C0;
 }
 
- .carousel .carousel-indicators button.active {
+.carousel .carousel-indicators button.active {
     background-color: #38C4BD;
 }
-
 
 @media (max-width: 991px) {
     .bodyFeedbackImg {
@@ -72,17 +70,17 @@
         display: none;
     }
 
-     .carousel-control-prev {
+    .carousel-control-prev {
         display: none;
     }
 
-     .carousel-control-next {
+    #carouselFeedback .carousel-control-next {
         position: relative;
         top: -50px;
         left: 80%;
     }
 
-     .carousel-indicators button {
+    .carousel-indicators button {
         background: #C0C0C0;
         width: 15px !important;
         height: 15px !important;
@@ -103,16 +101,16 @@
 }
 
 @media (min-width: 768px) {
-     .carousel-indicators {
+    .carousel-indicators {
         display: none;
     }
 
-     .carousel-control-prev {
+    #carouselFeedback .carousel-control-prev {
         position: relative;
         left: 80%;
     }
 
-     .carousel-control-next {
+    #carouselFeedback .carousel-control-next {
         position: relative;
         top: -28px;
         left: 91%;
