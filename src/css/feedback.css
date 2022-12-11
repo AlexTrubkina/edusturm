@@ -59,7 +59,7 @@
 }
 
 @media (max-width: 991px) {
-    .bodyFeedbackImg {
+    .body-feedback-img {
         width: 400px;
         height: 400px;
     }
@@ -79,7 +79,7 @@
 }
 
 @media (max-width: 767px) {
-    .bodyFeedbackImg {
+    .body-feedback-img {
         display: none;
     }
 
