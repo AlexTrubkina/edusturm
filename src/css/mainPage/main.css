@@ -3,6 +3,11 @@
     src: url('../../../fonts/fonts/Montserrat-Regular.ttf');
 }
 
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url('../../../fonts/fonts/Montserrat-Bold.ttf');
+}
+
 * {
     font-family: Montserrat;
 }
@@ -13,7 +18,12 @@
     flex-direction: column;
 }
 
+.mobileHeader h1 {
+    font-family: Montserrat-Bold;
+}
+
 .textInPic h1 {
+    font-family: Montserrat-Bold;
     font-size: 48px;
     margin-bottom: 5%;
 }
@@ -84,6 +94,7 @@
 
 .textAbout h1{
     margin-bottom: 5%;
+    font-family: Montserrat-Bold;
 }
 
 #enter {
@@ -185,8 +196,9 @@
 
     .textInPic {
         top: 0;
+        left: 0;
         margin-bottom: 10%;
-        width: 70%;
+        width: inherit;
     }
 
     .coupleOfProps {

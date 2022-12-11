@@ -5,6 +5,10 @@
     padding-bottom: 5%;
 }
 
+.feedback h1 {
+  font-family: Montserrat-Bold;
+}
+
 .bodyFeedback {
     margin-top: 3%;
     display: flex;
