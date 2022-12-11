@@ -1,4 +1,4 @@
-.courseFaces {
+.course-faces {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,7 +6,7 @@
     margin-bottom: 10%;
 }
 
-.courseFace {
+.course-face {
     display: flex;
     flex-direction: row;
     background: #F4F4F4;
@@ -19,7 +19,7 @@
     margin-bottom:  5%;
 }
 
-.textCourse {
+.text-course {
     font-size: 20px;
     width: 70%;
     margin-top: 60px;

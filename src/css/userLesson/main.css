@@ -6,39 +6,39 @@
     margin-top: 5%;
 }
 
-.descriptionTitle {
+.description-title {
     font-weight: 600;
     font-size: 24px;
 }
 
-.descriptionText {
+.description-text {
     font-size: 24px;
     width: 70%;
     display: grid;
     gap: 10px;
 }
 
-.homeworkDescription {
+.homework-description {
     background: linear-gradient(90deg, #05B86E 0%, #00BAC5 100%);
     color: white;
     margin-bottom: -40px;
 }
 
-.descriptionTitleHomework {
+.description-title-homework {
     font-weight: 600;
     font-size: 40px;
 }
 
-.descriptionTextHomework {
+.description-text-homework {
     width: 50%;
     font-size: 24px;
 }
 
-.headLesson p {
+.head-lesson p {
     font-size: 24px;
 }
 
-.headLesson {
+.head-lesson {
     margin-top: 5%;
     margin-bottom: 5%;
 }

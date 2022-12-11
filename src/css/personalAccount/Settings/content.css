@@ -4,7 +4,7 @@
     flex-direction: row;
 }
 
-.settingsText {
+.settings-text {
     background: #F4F4F4;
     border: 1px solid #DCDCDC;
     border-radius: 10px;
@@ -14,7 +14,7 @@
     color: #696E76;
 }
 
-.emailWarningText {
+.email-warning-text {
     color: #696E76;
     font-size: 16px;
 }

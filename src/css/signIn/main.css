@@ -1,4 +1,4 @@
-.signInBlock {
+.signin-block {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -6,7 +6,7 @@
 }
 
 
-.formSignIn {
+.signin-form {
     width: 480px;
     height: 100%;
     background: linear-gradient(180deg, #65E2DC 0%, #38C4BD 100%);
@@ -15,19 +15,19 @@
     margin-bottom: 18%;
 }
 
-.formSignIn:hover button {
+.signin-form:hover button {
     background: radial-gradient(100% 100% at 50% 0%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), #000000;
     color: white;
 }
 
-.formSignIn input {
+.signin-form input {
     height: 50px;
 }
 
-.noRegistaration {
+.no-registaration {
     margin-top: 30px;
 }
 
-.blockWithImage img {
+.block-with-image img {
     margin-left: 25%;
 }

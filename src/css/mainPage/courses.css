@@ -29,30 +29,30 @@
     height: 168px;
 }
 
-.textCourse {
+.text-course {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.devCourses, .designCourses {
+.dev-courses, .design-courses {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.devCourses {
+.dev-courses {
     margin-bottom: 5%;
 }
 
-.blockForButtonCourses {
+.block-buton-courses {
     display: flex;
     justify-content: center;
     margin-top: 5%;
 }
 
 @media (max-width: 991px) {
-    .devCourses, .designCourses {
+    .dev-courses, .design-courses {
         flex-direction: column;
         justify-content: center;
         align-items: center;

@@ -12,7 +12,7 @@
     font-family: Montserrat;
 }
 
-.headOfCourse {
+.head-course {
     display: flex;
     flex-direction: row;
     background: #F4F4F4;
@@ -23,7 +23,7 @@
     margin-bottom:  5%;
 }
 
-.textHeadCourse {
+.text-head-course {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -34,7 +34,7 @@
     font-size: 20px;
 }
 
-.iconHeadCourseComputer {
+.icon-head-course-computer {
     height: 90%;
 }
 
@@ -43,37 +43,37 @@
 }
 
 @media (min-width: 992px) {
-    .iconHeadCourseMobile {
+    .icon-head-course-mobile {
         display: none;
     }
 }
 
 @media (max-width: 991px) {
 
-    .headOfCourse {
+    .head-course {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100%;
     }
 
-    .iconHeadCourseMobile {
+    .icon-head-course-mobile {
         margin-top: 2%;
         margin-bottom: 2%;
         width: 50%;
     }
 
-    .textHeadCourse {
+    .text-head-course {
         width: 80%;
         align-items: center;
         justify-content: center;
     }
 
-    .iconHeadCourseComputer {
+    .icon-head-course-computer {
         display: none;
     }
 
-    .textHeadCourse h1 {
+    .text-head-course h1 {
         font-size: 30px;
     }
 
@@ -84,7 +84,7 @@
 }
 
 @media (max-width: 767px) {
-    .iconHeadCourseMobile {
+    .icon-head-course-mobile {
         width: 100%;
     }
 }

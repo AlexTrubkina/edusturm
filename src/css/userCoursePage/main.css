@@ -1,4 +1,4 @@
-.courseFace {
+.course-face {
     display: flex;
     flex-direction: row;
     background: #F4F4F4;
@@ -11,7 +11,7 @@
     margin-bottom:  5%;
 }
 
-.textCourse {
+.text-course {
     font-size: 20px;
     width: 70%;
     margin-top: 60px;
@@ -27,15 +27,15 @@
     margin-bottom: 5%;
 }
 
-.addInfo {
+.add-info {
     font-weight: normal;
     font-size: 16px;
 }
 
-.textInfo {
+.text-info {
     margin-bottom: 5%;
 }
 
-.textInfo h1 {
+.text-info h1 {
     font-weight: bolder;
 }

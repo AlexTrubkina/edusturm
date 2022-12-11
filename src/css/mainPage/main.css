@@ -12,33 +12,33 @@
     font-family: Montserrat;
 }
 
-.firstBlock {
+.first-block {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.mobileHeader h1 {
+.mobile-header h1 {
     font-family: Montserrat-Bold;
 }
 
-.textInPic h1 {
+.text-in-pic h1 {
     font-family: Montserrat-Bold;
     font-size: 48px;
     margin-bottom: 5%;
 }
 
-.textInPic ul {
+.text-in-pic ul {
     list-style-image: url("../../../images/marker.svg");
     font-size: 24px;
     margin-bottom: 10%;
 }
 
-.textInPic ul li {
+.text-in-pic ul li {
     margin-bottom: 20px;
 }
 
-.textInPic {
+.text-in-pic {
     position: relative;
     top: -550px;
     left: 7%;
@@ -46,7 +46,7 @@
     margin-bottom: -300px;
 }
 
-.imageInCircle {
+.img-circle {
     background: linear-gradient(180deg, #65E2DC 0%, #38C4BD 100%);
     border-radius: 50%;
     width: 100px;
@@ -55,23 +55,23 @@
     padding-left: 0.7rem;
 }
 
-.listOfPros {
+.list-pros {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.coupleOfProps {
+.couple-pros {
     display: flex;
     flex-direction: column;
     gap: 80px;
 }
 
-.textForProps {
+.text-pros {
     width: 260px;
 }
 
-.circleWithText {
+.circle-text {
     display: flex;
     flex-direction: row;
     gap: 5%;
@@ -84,15 +84,15 @@
     margin-bottom: 100px;
 }
 
-.textAbout {
+.text-about {
     width: 530px
 }
 
-.textAbout p{
+.text-about p{
     font-size: 20px;
 }
 
-.textAbout h1{
+.text-about h1{
     margin-bottom: 5%;
     font-family: Montserrat-Bold;
 }
@@ -109,11 +109,11 @@
 
 
 @media (max-width: 1199px) {
-    .textInPic {
+    .text-in-pic {
         top: -450px;
     }
 
-    .textForProps {
+    .text-pros {
         width: 200px;
     }
 
@@ -121,27 +121,27 @@
         width: 50%;
     }
 
-    .textAbout p {
+    .text-about p {
         font-size: 18px;
     }
 
 }
 
 @media (max-width: 991px) {
-    .textInPic h1 {
+    .text-in-pic h1 {
         font-size: 38px;
     }
 
-    .textInPic ul {
+    .text-in-pic ul {
         font-size: 16px;
         margin-bottom: 10%;
     }
 
-    .textInPic {
+    .text-in-pic {
         top: -390px;
     }
 
-    .listOfPros {
+    .list-pros {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -149,7 +149,7 @@
         gap: 30px;
     }
 
-    .coupleOfProps {
+    .couple-pros {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -164,44 +164,44 @@
     }
 
 
-    .textAbout {
+    .text-about {
         width: 100%;
     }
 }
 
 @media (min-width: 768px) {
-    .mobileHeader{
+    .mobile-header{
         display: none;
     }
 }
 
 @media (max-width: 767px) {
-    .textInPic h1 {
+    .text-in-pic h1 {
         display: none;
     }
 
-    .mobileHeader h1 {
+    .mobile-header h1 {
         font-weight: bold;
     }
 
-    .mobileHeader {
+    .mobile-header {
         margin-top: 5%;
         margin-bottom: 5%;
     }
 
-    .textInPic ul {
+    .text-in-pic ul {
         margin-top: 10%;
         list-style-image: url("../../../images/bulletMobile.svg");
     }
 
-    .textInPic {
+    .text-in-pic {
         top: 0;
         left: 0;
         margin-bottom: 10%;
         width: inherit;
     }
 
-    .coupleOfProps {
+    .couple-pros {
         flex-direction: column;
         gap: 30px;
     }

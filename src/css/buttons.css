@@ -1,4 +1,4 @@
-.greenButton {
+.green-button {
     background: radial-gradient(100% 100% at 50% 0%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(90deg, #38C4BD 0%, #2CAAA4 100%);
     border-radius: 10px;
     color: white;
@@ -8,11 +8,11 @@
     border: 0px;
 }
 
-.greenButton:hover {
+.green-button:hover {
     background: radial-gradient(100% 100% at 50% 0%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(90deg, #2CAAA4 0%, #026785 100%);
 }
 
-.moreCourses {
+.more-courses {
     background: #F4F4F4;
     border: 1px solid #434343;
     color: #262626;
@@ -23,12 +23,12 @@
     font-weight: bold;
 }
 
-.moreCourses:hover {
+.more-courses:hover {
     background: #000000;
     color: white;
 }
 
-.buttonRate {
+.button-rate {
     background: #000000;
     color: white;
     width: 200px;
@@ -37,25 +37,25 @@
     border: 0px;
 }
 
-.buttonRate:hover {
+.button-rate:hover {
     background-color: transparent;
     color: #000000;
     border: 1px solid #000000;
 }
 
-.socialButton {
+.social-button {
     background: white;
     border: 1px solid black;
     border-radius: 30px;
     width: 48px;
 }
 
-.socialButton:hover {
+.social-button:hover {
     background: black;
     color: white;
 }
 
-.profileButton {
+.profile-button {
     border-radius: 50%;
     background: white;
     border: 1px solid #38C4BD;
@@ -64,7 +64,7 @@
     padding-right: 1.8rem;
 }
 
-.buttonSignIn {
+.button-signin {
     width: 400px;
     height: 60px;
     background: radial-gradient(100% 100% at 50% 0%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), #D9D9D9;

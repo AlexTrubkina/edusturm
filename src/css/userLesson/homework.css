@@ -1,15 +1,15 @@
-.homeworkSend {
+.homework-send {
     background: #F4F4F4;
     margin-bottom: 5%;
 }
 
-.formHomework {
+.homework-form {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 
-.formHomework form {
+.homework-form form {
     width: 50%;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -36,19 +36,19 @@
     margin-bottom: 20%;
 }
 
-.headFiles {
+.head-files {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.filesText {
+.text-files {
     font-weight: 500;
     font-size: 24px;
     margin-top: 35%;
     margin-left: 5%;
 }
 
-.formHomework form:hover button{
+.homework-form form:hover button{
     background: radial-gradient(100% 100% at 50% 0%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), #000000;
     color: white;
 }

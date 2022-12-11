@@ -2,14 +2,14 @@
     font-family: Montserrat-Bold;
 }
 
-.contactsBlocks {
+.contacts-blocks {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 5%;
 }
 
-.getContacts {
+.get-contacts {
     display: flex;
     flex-direction: column;
 }
@@ -21,7 +21,7 @@
     font-size: 13px;
 }
 
-.contactsBigText {
+.contacts-big-text {
     font-size: 25px;
 }
 
@@ -30,31 +30,31 @@
     width: 70%;
 }
 
-.textContacts {
+.text-contacts {
     margin-top: 3%;
     width: 30%;
 }
 @media (max-width: 991px) {
-    .getContacts {
+    .get-contacts {
         width: 50%;
     }
 
-    .contactsBigText {
+    .contacts-big-text {
         font-size: 20px;
     }
 }
 
 @media (max-width: 767px) {
-    .contactsBlocks {
+    .contacts-blocks {
         flex-direction: column;
         margin-bottom: 5%;
     }
 
-    .textContacts {
+    .text-contacts {
         width: 100%;
     }
 
-    .getContacts {
+    .get-contacts {
         width: 100%;
         margin-top: 5%;
     }
@@ -63,7 +63,7 @@
         display: none;
     }
 
-    .textCourse h3 {
+    .text-course h3 {
         font-size: 20px;
     }
 
