@@ -1,0 +1,35 @@
+.description-course h1 {
+    font-family: Montserrat-SemiBold;
+    font-size: 2rem;
+}
+
+.course-face {
+    display: flex;
+    flex-direction: row;
+    background: #F4F4F4;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding: 5% 3% 5%;
+    height: 100%;
+    margin-bottom:  5%;
+
+}
+
+.description-course {
+    width: 50%;
+}
+
+.text-course {
+    font-size: 20px;
+
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.carousel-control-prev {
+    left: -10%;
+}
+
+.carousel-control-next {
+    right: -10%;
+}
