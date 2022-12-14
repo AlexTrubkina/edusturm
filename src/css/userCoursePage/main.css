@@ -1,41 +1,127 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url('../../../fonts/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url('../../../fonts/fonts/Montserrat-SemiBold.ttf');
+}
+
+* {
+    font-family: Montserrat;
+}
+
+.description-course h1 {
+    font-family: Montserrat-SemiBold;
+}
+
 .course-face {
     display: flex;
     flex-direction: row;
     background: #F4F4F4;
     border-radius: 20px;
     justify-content: space-between;
-    padding-top: 5%;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding: 5% 3% 5%;
     height: 100%;
     margin-bottom:  5%;
 }
 
+.description-course {
+    width: 60%;
+}
+
 .text-course {
     font-size: 20px;
-    width: 70%;
-    margin-top: 60px;
-    margin-bottom: 60px;
+
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.info ul li {
+    font-family: Montserrat-SemiBold;
 }
 
 .info ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-weight: bold;
     font-size: 20px;
     margin-bottom: 5%;
 }
 
 .add-info {
-    font-weight: normal;
+    font-family: Montserrat;
     font-size: 16px;
 }
 
 .course-text-info {
     margin-bottom: 5%;
+    font-size: 1.2rem;
 }
 
 .course-text-info h1 {
-    font-weight: bolder;
+    font-family: Montserrat-SemiBold;
+}
+
+@media (max-width: 1199px) {
+
+    .description-course h1 {
+        font-size: 2rem;
+    }
+
+    .text-course {
+        font-size: 0.9rem;
+
+    }
+
+    .description-course {
+        width: 50%;
+    }
+
+    .img-computer {
+        width: 40%;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .img-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .img-computer {
+        display: none;
+    }
+
+    .description-course {
+        width: 100%;
+    }
+
+    .img-mobile {
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .course-face {
+        padding: 8%;
+        width: 100%;
+    }
+
+    .info ul {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .info ul li {
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 330px) {
+    .course-face button {
+        width: 100%;
+    }
 }

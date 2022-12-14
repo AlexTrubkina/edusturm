@@ -1,7 +1,10 @@
+.teachers-header {
+    font-family: Montserrat-SemiBold;
+}
+
 .teachers {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     margin-bottom: 5%;
 }
@@ -18,4 +21,26 @@
     margin-top: 3%;
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.text-teacher h2 {
+    font-family: Montserrat-SemiBold;
+}
+
+@media (max-width: 1399px) {
+    .teachers {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .teacher {
+        justify-content: flex-start;
+        gap: 10%;
+    }
+}
+
+@media (max-width: 500px) {
+    .teacher h2 {
+        font-size: 1.3rem;
+    }
 }
