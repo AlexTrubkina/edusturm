@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url('../../../../../fonts/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url('../../../../../fonts/fonts/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url('../../../../../fonts/fonts/Montserrat-Bold.ttf');
+}
+
+* {
+    font-family: Montserrat;
+}
+
+.head-lesson h1 {
+    font-family: Montserrat-SemiBold;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+.description-title {
+    font-family: Montserrat-SemiBold;
+    font-size: 24px;
+}
+
+.description-text {
+    font-size: 24px;
+    width: 70%;
+    display: grid;
+    gap: 10px;
+}
+
+.homework-description {
+    background: linear-gradient(90deg, #05B86E 0%, #00BAC5 100%);
+    color: white;
+    margin-bottom: -40px;
+}
+
+.description-title-homework {
+    font-family: Montserrat-SemiBold;
+    font-size: 40px;
+}
+
+.description-text-homework {
+    width: 50%;
+    font-size: 24px;
+}
+
+.head-lesson p {
+    font-size: 24px;
+}
+
+.head-lesson {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media (max-width: 991px) {
+    .description {
+        flex-direction: column;
+        margin-bottom: 3%;
+        margin-top: 5%;
+    }
+
+    .description-text {
+        width: 100%
+    }
+
+    .description-title-homework, .description-title {
+        font-size: 1.8rem;
+        margin-bottom: 5%;
+    }
+
+    .description-text-homework {
+        width: 100%;
+        font-size: 1.3rem;
+    }
+}

@@ -1,19 +1,36 @@
 @font-face {
     font-family: "Montserrat";
-    src: url('../../../fonts/fonts/Montserrat-Regular.ttf');
+    src: url('../../../../../fonts/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url('../../../../../fonts/fonts/Montserrat-Bold.ttf');
 }
 
 @font-face {
     font-family: "Montserrat-SemiBold";
-    src: url('../../../fonts/fonts/Montserrat-SemiBold.ttf');
+    src: url('../../../../../fonts/fonts/Montserrat-SemiBold.ttf');
 }
 
 * {
     font-family: Montserrat;
 }
 
+.recomend-course-header {
+    font-family: Montserrat-Bold
+}
+
 .description-course h1 {
     font-family: Montserrat-SemiBold;
+}
+
+.course-faces {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
 }
 
 .course-face {
@@ -36,32 +53,6 @@
 
     margin-top: 7%;
     margin-bottom: 7%;
-}
-
-.info ul li {
-    font-family: Montserrat-SemiBold;
-}
-
-.info ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 20px;
-    margin-bottom: 5%;
-}
-
-.add-info {
-    font-family: Montserrat;
-    font-size: 16px;
-}
-
-.course-text-info {
-    margin-bottom: 5%;
-    font-size: 1.2rem;
-}
-
-.course-text-info h1 {
-    font-family: Montserrat-SemiBold;
 }
 
 @media (max-width: 1199px) {
@@ -108,15 +99,6 @@
     .course-face {
         padding: 8%;
         width: 100%;
-    }
-
-    .info ul {
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .info ul li {
-        margin-bottom: 5%;
     }
 }
 

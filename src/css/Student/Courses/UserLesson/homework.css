@@ -1,0 +1,100 @@
+.homework-send {
+    background: #F4F4F4;
+    margin-bottom: 5%;
+}
+
+.homework-form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.homework-form form {
+    width: 50%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.files {
+    border-left: 1px solid black;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+}
+
+.headForm, .files h2{
+    font-size: 2rem;
+    font-family: Montserrat-Bold;
+    margin-bottom: 5%;
+}
+
+#comment, #link {
+    height: 65px;
+}
+
+.linkInput {
+    margin-bottom: 20%;
+}
+
+.head-files {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text-files {
+    font-size: 1.3rem;
+    margin-top: 35%;
+    margin-left: 5%;
+}
+
+.homework-form form:hover button{
+    background: radial-gradient(100% 100% at 50% 0%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), #000000;
+    color: white;
+}
+
+@media (min-width: 992px) {
+    .files .button-signin {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .homework-form {
+        flex-direction: column;
+    }
+
+    .head-files {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .files {
+        border: none;
+    }
+
+    .files:hover .button-signin {
+        background: radial-gradient(100% 100% at 50% 0%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), #000000;
+        color: white;
+    }
+
+    .homework-form form {
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .homework-form form button{
+        display: none;
+    }
+
+    .text-files {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+}
+
+@media (max-width: 500px) {
+    .files .button-signin {
+        width: 100%;
+    }
+}
