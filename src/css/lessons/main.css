@@ -5,7 +5,7 @@
 }
 
 .lesson {
-    height: 440px;
+    height: 400px;
     width: 300px;
     background: linear-gradient(180deg, #F4F4F4 0%, rgba(56, 196, 189, 0.7) 100%);
     box-shadow: 0px 0px 40px #F0F0F0;
@@ -27,4 +27,27 @@
 
 .text-lesson {
     font-size: 24px;
+}
+
+@media (max-width: 991px) {
+    .lessons {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 767px) {
+    .lessons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 330px) {
+    .lesson {
+        width: 100%;
+    }
 }
