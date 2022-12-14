@@ -31,3 +31,37 @@
 .block-with-image img {
     margin-left: 25%;
 }
+
+@media (max-width: 1199px) {
+    .block-with-image img {
+        width: 75%
+    }
+
+    .block-with-image h1 {
+        font-size: 35px;
+    }
+    .block-with-image {
+        width: 40%;
+    }
+}
+
+@media (max-width: 991px) {
+    .block-with-image {
+        display: none;
+    }
+    .signin-block {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .signin-form {
+        width: 100%;
+        padding: 7%;
+    }
+
+    .signin-form button {
+        width: 100%;
+    }
+}
