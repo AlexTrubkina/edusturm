@@ -1,0 +1,39 @@
+.personal-account-statistic {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+
+.other-statistic {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chart, .homework-statistic, .payment-statistic {
+    box-shadow: 0px 0px 40px 1px #F0F0F0;
+    border-radius: 10px;
+}
+
+.homework-statistic {
+    padding: 5%;
+    width: 500px;
+}
+
+.chart {
+    padding: 5%;
+}
+
+.homework-table {
+    background: #F4F4F4;
+    border-radius: 10px;
+}
+
+
+.grey-text {
+    color: #696E76;
+}
+
+.payment-statistic {
+    padding: 5%;
+}
