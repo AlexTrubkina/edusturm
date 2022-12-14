@@ -1,3 +1,22 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url('../../../fonts/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url('../../../fonts/fonts/Montserrat-SemiBold.ttf');
+}
+
+* {
+    font-family: Montserrat;
+}
+
+.lesson h2 {
+    font-family: Montserrat-SemiBold;
+}
+
+
 .lessons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
