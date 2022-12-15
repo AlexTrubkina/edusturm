@@ -26,3 +26,27 @@
 .form-control {
     background: #F4F4F4;
 }
+
+.content-personal-account h2 {
+    font-family: Montserrat-SemiBold;
+}
+
+@media (min-width: 768px) {
+    .mobile-header {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .settings-text {
+        display: none;
+    }
+
+    .computer-header {
+        display: none;
+    }
+
+    .content-personal-account {
+        width: 100%;
+    }
+}
