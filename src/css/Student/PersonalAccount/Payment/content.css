@@ -14,10 +14,38 @@
     align-items: center;
 }
 
+.payment h2 {
+    font-family: Montserrat-SemiBold;
+}
+
 .content-personal-account {
     width: 70%;
 }
 
 .price {
-    font-size: 24px;
+    font-size: 1.2rem;
+}
+
+
+@media (max-width: 767px) {
+    .content-personal-account {
+        width: 100%;
+    }
+
+    .payment h2 {
+        font-size: 1.3rem;
+    }
+
+    .price {
+        font-size: 0.9rem;
+    }
+
+    .date-subscription p {
+        font-size: 0.9rem;
+    }
+
+    .payment {
+        align-items: flex-end;
+    }
+
 }

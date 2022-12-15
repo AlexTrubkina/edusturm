@@ -42,8 +42,6 @@
     .computer-text, .text-student {
         display: none;
     }
-
-
 }
 
 @media (max-width: 324px) {
