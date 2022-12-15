@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../../../src/css/buttons.css">
     <link rel="stylesheet" href="../../../src/css/Student/PersonalAccount/main.css">
     <link rel="stylesheet" href="../../../src/css/Student/PersonalAccount/Settings/content.css">
+    <link rel="stylesheet" href="../../../src/css/Teacher/PersonalAccount/Settings/content.css">
 </head>
 
 <body>
@@ -41,27 +42,59 @@
                 <li class="list-group-item mt-5"><a href="#">Выход из аккаунта</a></li>
             </ul>
             <div class="content-personal-account">
-                <h2 class="mb-4">Личные данные</h2>
+
+                <h2 class="mb-4 computer-header">Личные данные</h2>
+                <h2 class="mb-4 mobile-header">Аккаунт</h2>
                 <div class="formSettings">
                     <form>
-                        <div class="mb-3">
+                        <div class="mb-3 w-75">
                             <label for="exampleFormControlInput1" class="form-label">E-mail*</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            <input type="email" id="exampleFormControlInput1" class="form-control" placeholder="name@example.com">
                         </div>
-                        <div class="mb-5">
+                        <div class="mb-3 w-75">
                             <label for="exampleFormControlTextarea1" class="form-label">Имя и фамилия*</label>
-                            <input class="form-control" id="exampleFormControlTextarea1">
+                            <input class="form-control" id="exampleFormControlTextarea">
+                        </div>
+                        <div class="mb-3 w-75">
+                            <label for="exampleFormControlTextarea1" class="form-label">О деятельности</label>
+                            <input class="form-control" id="exampleFormControlTextarea">
+                        </div>
+                        <div class="mb-5 w-75">
+                            <label for="exampleFormControlTextarea1" class="form-label">Об авторе</label>
+                            <input class="form-control" id="exampleFormControlTextarea">
+                        </div>
+                        <h2>Социальные сети</h2>
+                        <p>Вставьте ссылки на ваши социальные сети</p>
+                        <div class="mb-3 d-flex gap-2 w-75">
+                            <img src="../../../images/socialMediaBlackIcons/instagram.svg" alt="">
+                            <input class="form-control" id="exampleFormControlTextarea">
+                        </div>
+                        <div class="mb-3 d-flex gap-2 w-75">
+                            <img src="../../../images/socialMediaBlackIcons/youtube.svg" alt="">
+                            <input class="form-control" id="exampleFormControlTextarea">
+                        </div>
+                        <div class="mb-3 d-flex gap-2 w-75">
+                            <img src="../../../images/socialMediaBlackIcons/vk.svg" alt="">
+                            <input class="form-control" id="exampleFormControlTextarea">
+                        </div>
+                        <div class="mb-3 d-flex gap-2 w-75">
+                            <img src="../../../images/socialMediaBlackIcons/facebook.svg" alt="">
+                            <input class="form-control" id="exampleFormControlTextarea">
+                        </div>
+                        <div class="mb-5 d-flex gap-2 w-75">
+                            <img src="../../../images/socialMediaBlackIcons/discord.svg" alt="">
+                            <input class="form-control" id="exampleFormControlTextarea">
                         </div>
                         <h2 class="mb-3">Оповещения</h2>
-                        <div class="email-warning-text">
-                            <p>E-mail оповещение о новом посте</p>
+                        <div class="email-warning-text w-75">
+                            <p>E-mail оповещение о проверке уроков, обратной связи и т.д.</p>
                         </div>
                     </form>
                     <div class="settings-text">
                         Все изменения в настройках сохраняются автоматически
                     </div>
-                </div>
 
+                </div>
             </div>
 
         </div>
