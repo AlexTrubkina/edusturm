@@ -58,7 +58,17 @@
         align-items: center;
     }
 
-    .list-group {
-        width: 100%;
+    .navbar-computer {
+        display: none;
+    }
+
+    #list-computer {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-mobile {
+        display: none;
     }
 }

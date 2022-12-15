@@ -12,16 +12,13 @@
     </head>
     <body>
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <nav class="navbar navbar-light bg-white navbar-computer">
                 <div class="container">
                     <a class="navbar-brand" href="#">
                         <img src="../../../images/logo.svg" alt="logo">
                         EDUSTURM
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar">
                         <ul class='navbar-nav me-auto mb-2 mb-lg-0'></ul>
                         <ul class="navbar-nav">
                             <button type="button" name="button" class="profile-button">
@@ -31,8 +28,29 @@
                     </div>
                 </div>
             </nav>
+
+            <nav class="navbar navbar-light bg-white navbar-mobile">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="../../../images/logo.svg" alt="logo">
+                        EDUSTURM
+                    </a>
+                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="../../../images/toggleIcon.svg" alt="Toggle Icon">
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="list-group list-group-flush" id="list-mobile">
+                            <li class="list-group-item"><a href="#">Настройки профиля</a></li>
+                            <li class="list-group-item"><a href="#">Подписки</a></li>
+                            <li class="list-group-item"><a href="#">Техподдержка</a></li>
+                            <li class="list-group-item border-bottom-0"><a href="#">История оплат</a></li>
+                            <li class="list-group-item mt-5"><a href="#">Выход из аккаунта</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
             <div class="personal-account-body">
-                <ul class="list-group list-group-flush">
+                <ul class="list-group list-group-flush" id="list-computer">
                     <li class="list-group-item"><a href="#">Настройки профиля</a></li>
                     <li class="list-group-item"><a href="#">Подписки</a></li>
                     <li class="list-group-item"><a href="#">Техподдержка</a></li>
