@@ -1,6 +1,6 @@
 .personal-account-body .card-header,
 .personal-account-body .card-footer {
-    background: #FFFFFF;
+    background-color: white;
 }
 
 .personal-account-body .card-footer,
@@ -24,6 +24,10 @@
     padding-bottom: 2%;
 }
 
+.form-control {
+    background-color: #EBEBEB;
+}
+
 .personal-account-body .card-header img {
     width: 10%;
 }
@@ -31,10 +35,6 @@
 .chat-item-text h4,
 .personal-account-body h2 {
     font-family: Montserrat-SemiBold;
-}
-
-.form-control {
-    background: #E9E9E9;
 }
 
 .chat-user {
@@ -70,4 +70,26 @@
     background: #C0C0C0;
     border: 1px solid #8B8B8B;
     border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .technical-chat {
+        width: 75%;
+    }
+}
+
+@media (max-width: 767px) {
+    .personal-account-body .card-header,
+    .personal-account-body .card-footer,
+    .personal-account-body .card-body {
+        background-color: #EBEBEB;
+    }
+
+    .personal-account-body .card-header {
+        border: none;
+    }
+
+    .form-control {
+        background-color: white;
+    }
 }
