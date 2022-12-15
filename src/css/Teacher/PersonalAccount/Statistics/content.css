@@ -2,12 +2,15 @@
     display: flex;
     flex-direction: row;
     gap: 3%;
+    width: 80%;
 }
 
 .other-statistic {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 100%;
+    gap: 15px;
 }
 
 .chart, .homework-statistic, .payment-statistic {
@@ -17,7 +20,12 @@
 
 .homework-statistic {
     padding: 5%;
-    width: 500px;
+
+}
+
+.homework-statistic h3,
+.payment-statistic h3 {
+    font-family: Montserrat-SemiBold;
 }
 
 .chart {
@@ -27,6 +35,12 @@
 .homework-table {
     background: #F4F4F4;
     border-radius: 10px;
+    text-align: center;
+}
+
+.table-common-header {
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 

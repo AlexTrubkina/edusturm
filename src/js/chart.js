@@ -4,7 +4,7 @@ new Chart(document.getElementById("doughnut-chart"), {
         labels: ["Успеваемость", "Успеваемость", "Успеваемость", "Успеваемость"],
         datasets: [{
             label: "Grades",
-            backgroundColor: ["#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9"],
+            backgroundColor: ["#FBAE3C", "#232745", "#96446E", "#F17C53"],
             data: [13, 10, 2, 1]
         }]
     },
@@ -12,7 +12,17 @@ new Chart(document.getElementById("doughnut-chart"), {
         title: {
             display: true,
             text: 'Всего'
+        },
+        legend: {
+            display: true,
+            position: 'bottom',
+            labels: {
+                usePointStyle: true,
+                pointStyle: 'circle',
+            }
         }
     },
+
+
 
 });
