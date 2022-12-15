@@ -1,0 +1,62 @@
+.students {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5%;
+}
+
+.student {
+    width: 100%;
+    background: linear-gradient(90deg, rgba(5, 184, 110, 0.7) 0%, rgba(56, 196, 189, 0.65) 100%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2%;
+    justify-content: space-between;
+}
+
+.logo-student {
+    display: flex;
+    width: 390px;
+    justify-content: space-between;
+}
+
+.logo-student h2 {
+    font-family: Montserrat-SemiBold;
+}
+
+.logo-student-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .mobile-text {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .computer-text, .text-student {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 324px) {
+    .logo-student img {
+        width: 30%;
+    }
+
+    .logo-student-text h2{
+        font-size: 1.3rem;
+    }
+
+    .logo-student-text p{
+        font-size: 0.8rem;
+    }
+
+}
