@@ -60,7 +60,7 @@
 }
 
 .private-chat-body .card-body {
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .private-chat-body .card-header {
