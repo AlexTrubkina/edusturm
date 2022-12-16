@@ -33,6 +33,12 @@
     padding: 5%;
 }
 
+.chart-container {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .homework-table {
     background: #F4F4F4;
     border-radius: 10px;
@@ -64,5 +70,6 @@
     .personal-account-statistic {
         flex-direction: column;
         width: 100%;
+        gap: 20px;
     }
 }
