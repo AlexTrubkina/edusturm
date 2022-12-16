@@ -63,15 +63,18 @@
                 <div class="chart">
                     <h3>Ученики</h3>
                     <div class="chart-container">
-                        <canvas id="doughnut-chart" width="200px" height="450"></canvas>
+                        <canvas id="doughnut-chart" width="200px" height="400"></canvas>
+                    </div>
+                    <div class="grey-text diagram-text mt-5">
+                        На диаграмме отображены абсолютные и относительные <br>показатели по уровням подписки среди всех подписчиков
                     </div>
                 </div>
                 <div class="other-statistic">
-                    <div class="homework-statistic">
-                        <h3>Сданных ДЗ</h3>
+                    <div class="profit-statistic">
+                        <h3>Прибыль</h3>
                         <div class="container-fluid">
                             <div class="table-responsive">
-                                <table class="table table-borderless caption-top homework-table">
+                                <table class="table table-borderless caption-top profit-table">
                                     <caption class="text-center text-black">За все время</caption>
                                     <thead>
                                         <tr>
@@ -96,10 +99,57 @@
                                     </tbody>
                                 </table>
                             </div>
+                            <div class="profit-mobile mt-3">
+                                <div class="profit-sum mb-3">
+                                    48 900₽
+                                </div>
+                                <div class="profit-blocks">
+                                    <div class="profit-block">
+                                        <div class="profit-block-head grey-text mb-3">
+                                            Приятель
+                                        </div>
+                                        <div class="profit-block-money">
+                                            21 430₽
+                                        </div>
+                                    </div>
+                                    <div class="profit-block">
+                                        <div class="profit-block-head grey-text mb-3">
+                                            Дружище
+                                        </div>
+                                        <div class="profit-block-money">
+                                            3 500₽
+                                        </div>
+                                    </div>
+                                    <div class="profit-block">
+                                        <div class="profit-block-head grey-text mb-3">
+                                            БРО
+                                        </div>
+                                        <div class="profit-block-money">
+                                            5 000₽
+                                        </div>
+                                    </div>
+                                    <div class="profit-block">
+                                        <div class="profit-block-head grey-text mb-3">
+                                            Цели
+                                        </div>
+                                        <div class="profit-block-money">
+                                            15 730₽
+                                        </div>
+                                    </div>
+                                    <div class="profit-block">
+                                        <div class="profit-block-head grey-text mb-3">
+                                            Покупки
+                                        </div>
+                                        <div class="profit-block-money">
+                                            3 300₽
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="payment-statistic">
-                        <h3>Платежи</h3>
+                        <h3 class="mb-3">Платежи</h3>
                         <div class="table-responsive">
                             <table class="table table-borderless payment-table">
                                 <tr>
@@ -157,6 +207,116 @@
                                     <td>Константин Корешков</td>
                                 </tr>
                             </table>
+                        </div>
+                        <div class="payment-mobile">
+                            <div class="payment">
+                                <div class="time">
+                                    <div class="when grey-text small-text">
+                                        сегодня
+                                    </div>
+                                    <div class="duration grey-text small-text">
+                                        3 мес
+                                    </div>
+                                </div>
+                                <div class="payer">
+                                    <div class="who">
+                                        Константин Корешков
+                                    </div>
+                                    <div class="cost">
+                                        3 000₽
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="payment">
+                                <div class="time">
+                                    <div class="when grey-text small-text">
+                                        вчера
+                                    </div>
+                                    <div class="duration grey-text small-text">
+                                        1 мес
+                                    </div>
+                                </div>
+                                <div class="payer">
+                                    <div class="who">
+                                        username007
+                                    </div>
+                                    <div class="cost">
+                                        1 000₽
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="payment">
+                                <div class="time">
+                                    <div class="when grey-text small-text">
+                                        12 мар 2022, 18:21
+                                    </div>
+                                    <div class="duration grey-text small-text">
+                                        1 мес
+                                    </div>
+                                </div>
+                                <div class="payer">
+                                    <div class="who">
+                                        Alexey Wooosh
+                                    </div>
+                                    <div class="cost">
+                                        500₽
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="payment">
+                                <div class="time">
+                                    <div class="when grey-text small-text">
+                                        09 мар 2022, 10:22
+                                    </div>
+                                    <div class="duration grey-text small-text">
+                                        12 мес
+                                    </div>
+                                </div>
+                                <div class="payer">
+                                    <div class="who">
+                                        sergeysaphin01
+                                    </div>
+                                    <div class="cost">
+                                        10 800₽
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="payment">
+                                <div class="time">
+                                    <div class="when grey-text small-text">
+                                        07 мар 2022, 18:21
+                                    </div>
+                                    <div class="duration grey-text small-text">
+                                        пост
+                                    </div>
+                                </div>
+                                <div class="payer">
+                                    <div class="who">
+                                         Добрый человек
+                                    </div>
+                                    <div class="cost">
+                                        2 000₽
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="payment">
+                                <div class="time">
+                                    <div class="when grey-text small-text">
+                                        07 мар 2022, 10:22
+                                    </div>
+                                    <div class="duration grey-text small-text">
+                                        1 мес
+                                    </div>
+                                </div>
+                                <div class="payer">
+                                    <div class="who">
+                                        Polly Donny
+                                    </div>
+                                    <div class="cost">
+                                        500₽
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

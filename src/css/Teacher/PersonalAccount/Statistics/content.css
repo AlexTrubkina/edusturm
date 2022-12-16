@@ -13,17 +13,16 @@
     gap: 15px;
 }
 
-.chart, .homework-statistic, .payment-statistic {
+.chart, .profit-statistic, .payment-statistic {
     box-shadow: 0px 0px 40px 1px #F0F0F0;
     border-radius: 10px;
 }
 
-.homework-statistic {
+.profit-statistic {
     padding: 5%;
-
 }
 
-.homework-statistic h3,
+.profit-statistic h3,
 .payment-statistic h3,
 .chart h3 {
     font-family: Montserrat-SemiBold;
@@ -31,6 +30,9 @@
 
 .chart {
     padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .chart-container {
@@ -39,7 +41,7 @@
     margin-right: auto;
 }
 
-.homework-table {
+.profit-table {
     background: #F4F4F4;
     border-radius: 10px;
     text-align: center;
@@ -50,7 +52,6 @@
     font-size: 1.5rem;
 }
 
-
 .grey-text {
     color: #696E76;
 }
@@ -58,18 +59,108 @@
 .payment-statistic {
     padding: 5%;
 }
-/*
-@media (max-width: 1199px) {
-    .homework-table ,
-    .payment-table {
-        font-size: 0.6rem;
-    }
-} */
 
-@media (max-width: 991px) {
+.profit-mobile {
+    background: #F5F6FB;
+    border-radius: 10px;
+    padding: 4%;
+}
+
+.profit-blocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+
+.profit-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profit-sum {
+    font-family: Montserrat-SemiBold;
+    font-size: 1.3rem;
+}
+
+.payment {
+    background: #F5F6FB;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.payment-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.payer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.small-text {
+    font-size: 0.8rem;
+}
+
+.who, .cost {
+    font-size: 0.9rem;
+}
+
+.diagram-text {
+    font-size: 0.8rem;
+}
+
+@media (max-width: 1399px) {
+
+    .profit-table,
+    .payment-table {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 1199px) {
+
+    .profit-table,
+    .payment-table {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .profit-mobile,
+    .payment-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .personal-account-statistic {
+        flex-direction: column;
+        width: 63%;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 767px) {
     .personal-account-statistic {
         flex-direction: column;
         width: 100%;
         gap: 20px;
+    }
+
+    .table-responsive {
+        display: none;
     }
 }
