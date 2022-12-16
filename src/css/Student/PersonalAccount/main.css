@@ -55,6 +55,11 @@
     overflow-y: auto;
 }
 
+.technical-chat .card-body > :first-child {
+    margin-top: auto !important;
+}
+
+
 @media (max-width: 767px) {
     .personal-account-body {
         flex-direction: column;
