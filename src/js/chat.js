@@ -9,7 +9,6 @@
                 cardBody.innerHTML += newMessage;
                 this.value = "";
             }
-
         }
     });
 })();
