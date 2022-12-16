@@ -31,16 +31,51 @@
     font-family: Montserrat-SemiBold;
 }
 
+.form-check-input:checked {
+    background-color: #2CAAA4 !important;
+    border-color: #2CAAA4 !important;
+}
+
+.form-check-input {
+    height: 1.4rem;
+}
+
+.form-switch .form-check-input {
+    width: 2.4rem;
+}
+
+.account-photo {
+    display: flex;
+    flex-direction: row;
+    gap: 7%;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.add-photo {
+    color: #2CAAA4;
+}
+
+
+
 @media (min-width: 768px) {
     .mobile-header {
+        display: none;
+    }
+    .content-personal-account,
+    .student-settings-input {
+        width: 75%;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .settings-text {
         display: none;
     }
 }
 
 @media (max-width: 767px) {
-    .settings-text {
-        display: none;
-    }
 
     .computer-header {
         display: none;
