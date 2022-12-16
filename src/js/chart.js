@@ -9,6 +9,7 @@ new Chart(document.getElementById("doughnut-chart"), {
         }]
     },
     options: {
+        cutoutPercentage: 70,
         title: {
             display: true,
             text: 'Всего'
@@ -19,6 +20,7 @@ new Chart(document.getElementById("doughnut-chart"), {
             labels: {
                 usePointStyle: true,
                 pointStyle: 'circle',
+                fontSize: 20,
             }
         }
     },

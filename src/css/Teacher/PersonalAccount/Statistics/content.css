@@ -24,7 +24,8 @@
 }
 
 .homework-statistic h3,
-.payment-statistic h3 {
+.payment-statistic h3,
+.chart h3 {
     font-family: Montserrat-SemiBold;
 }
 
@@ -50,4 +51,18 @@
 
 .payment-statistic {
     padding: 5%;
+}
+/*
+@media (max-width: 1199px) {
+    .homework-table ,
+    .payment-table {
+        font-size: 0.6rem;
+    }
+} */
+
+@media (max-width: 991px) {
+    .personal-account-statistic {
+        flex-direction: column;
+        width: 100%;
+    }
 }

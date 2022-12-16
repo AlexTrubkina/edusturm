@@ -43,115 +43,121 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="list-group list-group-flush" id="list-mobile">
                         <li class="list-group-item"><a href="#">Настройки профиля</a></li>
-                        <li class="list-group-item"><a href="#">Подписки</a></li>
+                        <li class="list-group-item"><a href="#">Мои курсы</a></li>
                         <li class="list-group-item"><a href="#">Техподдержка</a></li>
-                        <li class="list-group-item border-bottom-0"><a href="#">История оплат</a></li>
+                        <li class="list-group-item border-bottom-0"><a href="#">Статистика</a></li>
                         <li class="list-group-item mt-5"><a href="#">Выход из аккаунта</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <div class="personal-account-body">
-            <ul class="list-group list-group-flush" id="list-computer">
+            <ul class="list-group list-group-flush" id="list-mobile">
                 <li class="list-group-item"><a href="#">Настройки профиля</a></li>
-                <li class="list-group-item"><a href="#">Подписки</a></li>
+                <li class="list-group-item"><a href="#">Мои курсы</a></li>
                 <li class="list-group-item"><a href="#">Техподдержка</a></li>
-                <li class="list-group-item border-bottom-0"><a href="#">История оплат</a></li>
+                <li class="list-group-item border-bottom-0"><a href="#">Статистика</a></li>
                 <li class="list-group-item mt-5"><a href="#">Выход из аккаунта</a></li>
             </ul>
             <div class="personal-account-statistic">
                 <div class="chart">
                     <h3>Ученики</h3>
-                    <canvas id="doughnut-chart" height="450"></canvas>
-                    
+                    <div class="container-fluid">
+                        <canvas id="doughnut-chart" width="200px" height="450"></canvas>
+                    </div>
                 </div>
                 <div class="other-statistic">
                     <div class="homework-statistic">
                         <h3>Сданных ДЗ</h3>
-
-                        <table class="table table-borderless caption-top homework-table">
-                            <caption class="text-center text-black">За все время</caption>
-                            <thead>
-                                <tr>
-                                    <th class="table-common-header" colspan="5">276 430₽</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><span class="grey-text">Приятель</span></td>
-                                    <td><span class="grey-text">Дружище</span></td>
-                                    <td><span class="grey-text">БРО</span></td>
-                                    <td><span class="grey-text">Цели</span></td>
-                                    <td><span class="grey-text">Покупки</span></td>
-                                </tr>
-                                <tr>
-                                    <td>121 430₽</td>
-                                    <td>43 500₽</td>
-                                    <td>45 000₽</td>
-                                    <td>59 730₽</td>
-                                    <td>17 000₽</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div class="container-fluid">
+                            <div class="table-responsive">
+                                <table class="table table-borderless caption-top homework-table">
+                                    <caption class="text-center text-black">За все время</caption>
+                                    <thead>
+                                        <tr>
+                                            <th class="table-common-header" colspan="5">276 430₽</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><span class="grey-text">Приятель</span></td>
+                                            <td><span class="grey-text">Дружище</span></td>
+                                            <td><span class="grey-text">БРО</span></td>
+                                            <td><span class="grey-text">Цели</span></td>
+                                            <td><span class="grey-text">Покупки</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>121 430₽</td>
+                                            <td>43 500₽</td>
+                                            <td>45 000₽</td>
+                                            <td>59 730₽</td>
+                                            <td>17 000₽</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                     </div>
                     <div class="payment-statistic">
                         <h3>Платежи</h3>
-                        <table class="table table-borderless payment-table">
-                            <tr>
-                                <th><span class="grey-text">дата/время</span></th>
-                                <th><span class="grey-text">сумма</span></th>
-                                <th><span class="grey-text">период</span></th>
-                                <th><span class="grey-text">подписчик</span></th>
-                            </tr>
-                            <tr>
-                                <td>сегодня</td>
-                                <td>3 000₽</td>
-                                <td>3 мес</td>
-                                <td>Константин Корешков</td>
-                            </tr>
-                            <tr>
-                                <td>сегодня</td>
-                                <td>3 000₽</td>
-                                <td>3 мес</td>
-                                <td>Константин Корешков</td>
-                            </tr>
-                            <tr>
-                                <td>сегодня</td>
-                                <td>3 000₽</td>
-                                <td>3 мес</td>
-                                <td>Константин Корешков</td>
-                            </tr>
-                            <tr>
-                                <td>сегодня</td>
-                                <td>3 000₽</td>
-                                <td>3 мес</td>
-                                <td>Константин Корешков</td>
-                            </tr>
-                            <tr>
-                                <td>сегодня</td>
-                                <td>3 000₽</td>
-                                <td>3 мес</td>
-                                <td>Константин Корешков</td>
-                            </tr>
-                            <tr>
-                                <td>сегодня</td>
-                                <td>3 000₽</td>
-                                <td>3 мес</td>
-                                <td>Константин Корешков</td>
-                            </tr>
-                            <tr>
-                                <td>сегодня</td>
-                                <td>3 000₽</td>
-                                <td>3 мес</td>
-                                <td>Константин Корешков</td>
-                            </tr>
-                            <tr>
-                                <td>сегодня</td>
-                                <td>3 000₽</td>
-                                <td>3 мес</td>
-                                <td>Константин Корешков</td>
-                            </tr>
-                        </table>
+                        <div class="table-responsive">
+                            <table class="table table-borderless payment-table">
+                                <tr>
+                                    <th><span class="grey-text">дата/время</span></th>
+                                    <th><span class="grey-text">сумма</span></th>
+                                    <th><span class="grey-text">период</span></th>
+                                    <th><span class="grey-text">подписчик</span></th>
+                                </tr>
+                                <tr>
+                                    <td>сегодня</td>
+                                    <td>3 000₽</td>
+                                    <td>3 мес</td>
+                                    <td>Константин Корешков</td>
+                                </tr>
+                                <tr>
+                                    <td>сегодня</td>
+                                    <td>3 000₽</td>
+                                    <td>3 мес</td>
+                                    <td>Константин Корешков</td>
+                                </tr>
+                                <tr>
+                                    <td>сегодня</td>
+                                    <td>3 000₽</td>
+                                    <td>3 мес</td>
+                                    <td>Константин Корешков</td>
+                                </tr>
+                                <tr>
+                                    <td>сегодня</td>
+                                    <td>3 000₽</td>
+                                    <td>3 мес</td>
+                                    <td>Константин Корешков</td>
+                                </tr>
+                                <tr>
+                                    <td>сегодня</td>
+                                    <td>3 000₽</td>
+                                    <td>3 мес</td>
+                                    <td>Константин Корешков</td>
+                                </tr>
+                                <tr>
+                                    <td>сегодня</td>
+                                    <td>3 000₽</td>
+                                    <td>3 мес</td>
+                                    <td>Константин Корешков</td>
+                                </tr>
+                                <tr>
+                                    <td>сегодня</td>
+                                    <td>3 000₽</td>
+                                    <td>3 мес</td>
+                                    <td>Константин Корешков</td>
+                                </tr>
+                                <tr>
+                                    <td>сегодня</td>
+                                    <td>3 000₽</td>
+                                    <td>3 мес</td>
+                                    <td>Константин Корешков</td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
