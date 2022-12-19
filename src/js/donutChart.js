@@ -1,7 +1,7 @@
 new Chart(document.getElementById("doughnut-chart"), {
     type: 'doughnut',
     data: {
-        labels: ["Успеваемость", "Успеваемость", "Успеваемость", "Успеваемость"],
+        labels: ["Приятель", "Дружище", "БРО", "Отслеживают"],
         datasets: [{
             label: "Чел.",
             backgroundColor: ["#FBAE3C", "#232745", "#96446E", "#F17C53"],
@@ -25,6 +25,7 @@ new Chart(document.getElementById("doughnut-chart"), {
                 color: 'black',
                 font: {
                     size: 25,
+                    weight: 'bold',
                 }
             },
             legend: {
