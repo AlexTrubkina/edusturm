@@ -27,7 +27,7 @@
     height: 400px;
     width: 300px;
     background: linear-gradient(180deg, #F4F4F4 0%, rgba(56, 196, 189, 0.7) 100%);
-    box-shadow: 0px 0px 40px #F0F0F0;
+    box-shadow: 0 0 40px #F0F0F0;
     border-radius: 10px;
     margin-top: 5%;
     padding-top: 8%;
@@ -36,12 +36,12 @@
 
 .lesson:hover {
     background: linear-gradient(180deg, #2CAAA4 0%, rgba(56, 196, 189, 0.7) 100%);
-    box-shadow: 0px 0px 40px #F0F0F0;
+    box-shadow: 0 0 40px #F0F0F0;
 }
 
 .lesson:active {
     background: linear-gradient(180deg, #2CAAA4 0%, rgba(56, 196, 189, 0.7) 100%);
-    box-shadow: 0px 0px 40px #F0F0F0;
+    box-shadow: 0 0 40px #F0F0F0;
 }
 
 .text-lesson {
