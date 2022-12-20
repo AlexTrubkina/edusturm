@@ -14,11 +14,11 @@
 }
 
 * {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
 }
 
 .head-lesson h1 {
-    font-family: Montserrat-SemiBold;
+    font-family: Montserrat-SemiBold, sans-serif;
 }
 
 .description {
@@ -30,7 +30,7 @@
 }
 
 .description-title {
-    font-family: Montserrat-SemiBold;
+    font-family: Montserrat-SemiBold, sans-serif;
     font-size: 24px;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .description-title-homework {
-    font-family: Montserrat-SemiBold;
+    font-family: Montserrat-SemiBold, sans-serif;
     font-size: 40px;
 }
 

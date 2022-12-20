@@ -25,7 +25,7 @@
 .profit-statistic h3,
 .payment-statistic h3,
 .chart h3 {
-    font-family: Montserrat-SemiBold;
+    font-family: Montserrat-SemiBold, sans-serif;
 }
 
 .chart {
@@ -82,7 +82,7 @@
 }
 
 .profit-sum {
-    font-family: Montserrat-SemiBold;
+    font-family: Montserrat-SemiBold, sans-serif;
     font-size: 1.3rem;
 }
 

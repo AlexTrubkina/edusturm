@@ -28,7 +28,7 @@
 }
 
 .content-personal-account h2 {
-    font-family: Montserrat-SemiBold;
+    font-family: Montserrat-SemiBold, sans-serif;
 }
 
 .form-check-input:checked {

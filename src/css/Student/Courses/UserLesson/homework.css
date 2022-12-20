@@ -24,7 +24,7 @@
 
 .headForm, .files h2{
     font-size: 2rem;
-    font-family: Montserrat-Bold;
+    font-family: Montserrat-Bold, sans-serif;
     margin-bottom: 5%;
 }
 

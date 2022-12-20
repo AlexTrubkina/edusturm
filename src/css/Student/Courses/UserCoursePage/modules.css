@@ -19,13 +19,13 @@
 
 
 .modules-header {
-    font-family: Montserrat-SemiBold;
+    font-family: Montserrat-SemiBold, sans-serif;
     margin-bottom: 5%;
     margin-top: 10%;
 }
 
 .description-module h1 {
-    font-family: Montserrat-SemiBold;
+    font-family: Montserrat-SemiBold, sans-serif;
 }
 
 @media (max-width: 1199px) {

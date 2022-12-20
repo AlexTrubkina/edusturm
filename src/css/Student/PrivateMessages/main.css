@@ -9,11 +9,11 @@
 }
 
 * {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
 }
 
 .private-messages-header, .chat-item-text h4, .card-header h3 {
-    font-family: Montserrat-SemiBold;
+    font-family: Montserrat-SemiBold, sans-serif;
 }
 
 .private-chat-body {

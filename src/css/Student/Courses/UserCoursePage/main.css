@@ -9,11 +9,11 @@
 }
 
 * {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
 }
 
 .description-course h1 {
-    font-family: Montserrat-SemiBold;
+    font-family: Montserrat-SemiBold, sans-serif;
 }
 
 .course-face {
@@ -39,7 +39,7 @@
 }
 
 .info ul li {
-    font-family: Montserrat-SemiBold;
+    font-family: Montserrat-SemiBold, sans-serif;
 }
 
 .info ul {
@@ -51,7 +51,7 @@
 }
 
 .add-info {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 16px;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .course-text-info h1 {
-    font-family: Montserrat-SemiBold;
+    font-family: Montserrat-SemiBold, sans-serif;
 }
 
 @media (max-width: 1199px) {

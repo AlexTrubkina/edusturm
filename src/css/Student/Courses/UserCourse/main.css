@@ -14,15 +14,15 @@
 }
 
 * {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
 }
 
 .recommend-course-header {
-    font-family: Montserrat-Bold
+    font-family: Montserrat-Bold, sans-serif
 }
 
 .description-course h1 {
-    font-family: Montserrat-SemiBold;
+    font-family: Montserrat-SemiBold, sans-serif;
 }
 
 .course-faces {

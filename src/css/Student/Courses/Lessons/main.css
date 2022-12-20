@@ -9,11 +9,11 @@
 }
 
 * {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
 }
 
 .lesson h2 {
-    font-family: Montserrat-SemiBold;
+    font-family: Montserrat-SemiBold, sans-serif;
 }
 
 

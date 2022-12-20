@@ -1,5 +1,5 @@
 .teachers-header {
-    font-family: Montserrat-SemiBold;
+    font-family: Montserrat-SemiBold, sans-serif;
 }
 
 .teachers {
@@ -24,7 +24,7 @@
 }
 
 .text-teacher h2 {
-    font-family: Montserrat-SemiBold;
+    font-family: Montserrat-SemiBold, sans-serif;
 }
 
 @media (max-width: 1399px) {

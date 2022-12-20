@@ -34,7 +34,7 @@
 
 .chat-item-text h4,
 .personal-account-body h2 {
-    font-family: Montserrat-SemiBold;
+    font-family: Montserrat-SemiBold, sans-serif;
 }
 
 .chat-user {
