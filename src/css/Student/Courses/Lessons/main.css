@@ -12,7 +12,7 @@
     font-family: Montserrat, sans-serif;
 }
 
-.lesson h2 {
+.lesson h2, h1 {
     font-family: Montserrat-SemiBold, sans-serif;
 }
 
@@ -20,12 +20,13 @@
 .lessons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
+    gap: 8%;
 }
 
 .lesson {
     height: 400px;
-    width: 300px;
+    /* width: 350px; */
     background: linear-gradient(180deg, #F4F4F4 0%, rgba(56, 196, 189, 0.7) 100%);
     box-shadow: 0 0 40px #F0F0F0;
     border-radius: 10px;
@@ -48,11 +49,17 @@
     font-size: 24px;
 }
 
+@media (max-width: 1199px) {
+    .lesson h2 {
+        font-size: 1.5rem;
+    }
+}
+
 @media (max-width: 991px) {
     .lessons {
         display: grid;
         grid-template-columns: 1fr 1fr ;
-        margin-bottom: 5%;
+        margin-bottom: 40%;
     }
 }
 
@@ -62,6 +69,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 10%;
+    }
+
+    .lesson {
+        width: 300px;
     }
 }
 
