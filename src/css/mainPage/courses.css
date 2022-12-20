@@ -14,8 +14,8 @@
 .course {
     background: linear-gradient(180deg, #434343 0%, #262626 100%);
     border-radius: 10px;
-    width: 460px;
-    height: 300px;
+    width: 600px;
+    height: 350px;
     color: white;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
     display: flex;
@@ -51,12 +51,31 @@
     margin-top: 5%;
 }
 
+@media (max-width: 1399px) {
+    .course {
+        width: 520px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .course {
+        width: 450px;
+        height: 250px;
+    }
+}
+
+
 @media (max-width: 991px) {
     .dev-courses, .design-courses {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 30px;
+    }
+
+    .dev-courses {
+        margin-bottom: 30px;
     }
 }
 
