@@ -39,7 +39,12 @@
 }
 
 .text-user-course {
-    width: 50%
+    width: 60%
+}
+
+.text-user-course h5 {
+    font-family: Montserrat-SemiBold, sans-serif;
+    font-size: 1.4rem;
 }
 
 @media (max-width: 991px) {
