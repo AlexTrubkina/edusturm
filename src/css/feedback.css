@@ -6,7 +6,7 @@
 }
 
 .feedback h1 {
-  font-family: Montserrat-Bold, sans-serif;
+    font-family: Montserrat-Bold, sans-serif;
 }
 
 .bodyFeedback {
@@ -46,7 +46,7 @@
 }
 
 #carouselFeedback .carousel-indicators {
-    right: 60%;
+    right: 55%;
     bottom: 5%;
 }
 
@@ -68,6 +68,7 @@
         font-size: 16px;
     }
 }
+
 
 @media (max-width: 991px) {
     .carousel-indicators button {
