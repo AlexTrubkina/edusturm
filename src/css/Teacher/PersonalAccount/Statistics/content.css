@@ -96,6 +96,8 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    overflow-y: auto;
+    height: 400px;
 }
 
 .time {
@@ -156,6 +158,7 @@
     .payment-mobile {
         display: none;
     }
+
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
