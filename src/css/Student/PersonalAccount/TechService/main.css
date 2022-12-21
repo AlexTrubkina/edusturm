@@ -11,7 +11,7 @@
 .personal-account-body .card {
     box-shadow: 0 0 40px #F0F0F0;
     border-radius: 10px;
-    height: 700px;
+    height: 600px;
 }
 
 .personal-account-body .card-header {
@@ -32,8 +32,7 @@
     width: 10%;
 }
 
-.chat-item-text h4,
-.personal-account-body h2 {
+.chat-item-text h4, h2 {
     font-family: Montserrat-SemiBold, sans-serif;
 }
 
@@ -75,6 +74,7 @@
 @media (min-width: 768px) {
     .technical-chat {
         width: 75%;
+        height: 100%;
     }
 }
 
