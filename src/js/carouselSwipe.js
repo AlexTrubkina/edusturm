@@ -9,6 +9,8 @@ $(".carousel").swipe({
         ) {
             if (direction == "left") $(this).carousel("next");
             if (direction == "right") $(this).carousel("prev");
+            if (event.cancelable) event.preventDefault();
         },
-        allowPageScroll: "vertical"
+        allowPageScroll: "vertical",
+
 });
