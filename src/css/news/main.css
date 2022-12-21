@@ -14,7 +14,7 @@
     padding-top: 5%;
     padding-left: 5%;
     padding-bottom: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 40px;
 }
 
 .head-news h1 {
@@ -23,7 +23,6 @@
 }
 
 .text-news {
-    margin-top: 5%;
     margin-bottom: 5%;
 }
 
@@ -31,8 +30,85 @@
     margin-bottom: 3%;
 }
 
+.news-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.news-nav {
+    height: 100%;
+    width: 35%;
+}
+
+.nav-text h5 {
+    font-size: 1.3rem
+}
+
+.nav-text p {
+    font-size: 0.7rem;
+}
+
+.nav-pic img {
+    border-radius: 10px;
+}
+
+.reccomend-news, .reccomend-course {
+    background: radial-gradient(100% 100% at 50% 0%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(90deg, #05B86E 0%, #2CAAA4 48.75%, #026785 100%);
+}
+
+.reccomend-news a, .reccomend-course a {
+    color: white !important;
+}
+
+.list-group-reccomend-news {
+    margin-bottom: 40px;
+}
+
+.list-group-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list-group {
+    box-shadow: 0 0 40px 1px #F0F0F0;
+    height: 100%;
+    padding: 1% 0.5% 1% 0.5%;
+    border-radius: 10px;
+}
+
+.list-group-item a {
+    color: #696E76;
+    text-decoration: none;
+    font-size: 16px;
+    width: 210px;
+}
+
+.list-group-item a:active {
+    color: #000000;
+    font-weight: 500;
+}
+
+.list-group-item a:hover {
+    color: #000000;
+    font-weight: 500;
+}
+
 @media (min-width: 992px) {
     #enter {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .news-body {
+        width: 60%;
+    }
+}
+
+@media (max-width: 767px) {
+    .news-nav {
         display: none;
     }
 }
