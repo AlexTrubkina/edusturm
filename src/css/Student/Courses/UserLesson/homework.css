@@ -17,6 +17,7 @@
 
 .files {
     border-left: 1px solid black;
+    width: 40%;
     padding-top: 3%;
     padding-bottom: 3%;
     padding-left: 3%;
@@ -50,8 +51,7 @@
     justify-content: center;
     flex-direction: column;
     cursor: pointer;
-    padding-left: 3%;
-    padding-right: 2%;
+
 }
 
 .result img {
