@@ -237,6 +237,11 @@
 }
 
 @media (min-width: 768px) {
+
+    .return-mobile {
+        display: none;
+    }
+
     .navbar-mobile {
         display: none;
     }
