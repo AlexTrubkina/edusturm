@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    height: 400px;
+    overflow-y: auto;
 }
 
 .payment {
@@ -24,6 +26,16 @@
 
 .price {
     font-size: 1.2rem;
+}
+
+.payments::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+
+.payments::-webkit-scrollbar-thumb {
+  background-color: #DCDCDC;
+  border-radius: 5px;
 }
 
 

@@ -57,6 +57,25 @@
     color: #696E76;
 }
 
+.table-responsive {
+    height: 300px;
+    overflow: auto
+}
+
+.payment-table {
+    height: 400px
+}
+
+.table-responsive::-webkit-scrollbar, .payment-mobile::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+
+.table-responsive::-webkit-scrollbar-thumb, .payment-mobile::-webkit-scrollbar-thumb {
+  background-color: #DCDCDC;
+  border-radius: 5px;
+}
+
 .payment-statistic {
     padding: 5%;
 }
@@ -158,7 +177,6 @@
     .payment-mobile {
         display: none;
     }
-
 }
 
 @media (max-width: 991px) and (min-width: 768px) {

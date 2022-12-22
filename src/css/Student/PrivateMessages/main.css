@@ -32,6 +32,17 @@
     width: 40%;
 }
 
+.chat-list::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+
+.chat-list::-webkit-scrollbar-thumb {
+  background-color: #DCDCDC;
+  border-radius: 5px;
+}
+
+
 .chat-item {
     display: flex;
     flex-direction: row;
@@ -66,6 +77,16 @@
 
 .private-chat-body .card-body {
     overflow-y: auto;
+}
+
+.card-body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+
+.card-body::-webkit-scrollbar-thumb {
+  background-color: #DCDCDC;
+  border-radius: 5px;
 }
 
 .private-chat-body .card-body > :first-child {

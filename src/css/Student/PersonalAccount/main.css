@@ -12,6 +12,17 @@
     font-family: Montserrat, sans-serif;
 }
 
+.card-body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+
+.card-body::-webkit-scrollbar-thumb {
+  background-color: #DCDCDC;
+  border-radius: 5px;
+}
+
+
 .personal-account-body {
     display: flex;
     flex-direction: row;
