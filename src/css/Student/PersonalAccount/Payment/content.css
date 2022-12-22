@@ -15,7 +15,7 @@
     align-items: center;
 }
 
-.payment h2 {
+.payment h2, h2 {
     font-family: Montserrat-SemiBold, sans-serif;
 }
 
