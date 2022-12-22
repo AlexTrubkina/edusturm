@@ -3,24 +3,27 @@ const payment = document.querySelector('.payment')
 
 
 const lengthOfPayments = payments.children.length;
-let height = payments.scrollHeight;
-let heightPayment = payment.scrollHeight;
+let height;
+let heightPayment;
 
-if (lengthOfPayments <= 3) {
-    payments.style.height = height + "px";
-} else if (lengthOfPayments <= 10) {
-    let difference = heightPayment * (lengthOfPayments - 3);
-    payments.style.height = height - difference + "px";
-}
+//устанавливаем высоту блока с платежами
 
-onresize = (event) => {
+function setHeight() {
     height = payments.scrollHeight;
     heightPayment = payment.scrollHeight;
 
     if (lengthOfPayments <= 3) {
         payments.style.height = height + "px";
     } else if (lengthOfPayments <= 10) {
-        difference = heightPayment * (lengthOfPayments - 3);
+        let difference = heightPayment * (lengthOfPayments - 3);
         payments.style.height = height - difference + "px";
     }
+}
+
+setHeight();
+
+// при изменении размера экрана
+
+onresize = (event) => {
+    setHeight();
 };

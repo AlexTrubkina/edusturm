@@ -1,3 +1,5 @@
+// свайп карусели вправо и влево
+
 $(".carousel").swipe({
         swipe: function(
             event,

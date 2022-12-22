@@ -1,3 +1,5 @@
+// bootstrap карусель с несколькими элементами на слайде
+
 const multipleCardCarousel = document.querySelector(
   "#carouselNews"
 );
@@ -8,6 +10,7 @@ if (window.matchMedia("(min-width: 768px)").matches) {
   const carouselWidth = $(".carousel-inner")[0].scrollWidth;
   const cardWidth = $(".carousel-item").width();
   let scrollPosition = 0;
+  // смещаем карусель при нажатии на кнопку
   $("#carouselNews .carousel-control-next").on("click", function () {
     if (scrollPosition < carouselWidth - cardWidth * 4) {
       scrollPosition += cardWidth;

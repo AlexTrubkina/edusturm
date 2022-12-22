@@ -1,5 +1,8 @@
+// отправка сообщения после нажатия на кнопку
+
 (function() {
     const cards = document.querySelectorAll('.card');
+    // если на странице больше одного чата
     cards.forEach((item, i) => {
         const input = item.querySelector('input');
         input.addEventListener('keydown', function(e) {
