@@ -11,7 +11,7 @@
 }
 
 @media (max-width: 333px) {
-    .mobile-footer .text-dark{
+    .mobile-footer .text-dark {
         font-size: 14px;
     }
 }
