@@ -30,20 +30,17 @@ fullScreen();
 
 
 onresize = (event) => {
-    if (window.innerWidth >= 768 && chatButton[0].style.display !== 'none') { // если в мобильной версии не выбран не один чат при увеличении экрана буте показываться первый
-        returnButton.style.display = 'none'; // убираем кнопку возврата
-        chats[0].style.display = 'flex'; // показываем первый чат
-        chatButton[0].classList.add('active');
+    if (window.innerWidth >= 768) { // при увеличении экрана по открывается первый чат
+        for (let i = 0; i < chatButton.length; i++) {
+            returnButton.style.display = 'none'; // убираем кнопку возврата
+            chats[0].style.display = 'flex'; // показываем первый чат
+            chatButton[0].classList.add('active');
+            chatButton[i].style.display = 'flex'; 
+        }
         fullScreen()
     }
     if (window.innerWidth <= 767) { // при переключении на моб версию
         mobileVersion();
-    }
-    if (window.innerWidth >= 768 && chatButton[0].style.display === 'none') { // когда выбран чат и переключение на полный экран
-        for (let i = 0; i < chatButton.length; i++) {
-            chatButton[i].style.display = 'flex';
-        }
-        fullScreen();
     }
 };
 
