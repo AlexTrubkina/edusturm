@@ -13,13 +13,13 @@ function fullScreen() {
     let temp;
     for (let i = 0; i < chatButton.length; i++) {
         chatButton[i].onclick = clickButton => {
-            chatButton[i].classList.add('active');
-            chats[i].style.display = 'flex';
-            temp = i;
+            chatButton[i].classList.add('active'); // при нажатии выделяется кнопка активного чата
+            chats[i].style.display = 'flex'; // показываеься активный чат
+            temp = i; // временная переменная чтобы обозначить активный чат
             for (let j = 0; j < chatButton.length; j++) {
                 if (j !== temp) {
-                    chatButton[j].classList.remove('active');
-                    chats[j].style.display = 'none';
+                    chatButton[j].classList.remove('active'); // у всех остальных кнопок убирается активный класс
+                    chats[j].style.display = 'none'; // все чаты кроме активного убираются
                 }
             }
         }
@@ -35,7 +35,7 @@ onresize = (event) => {
             returnButton.style.display = 'none'; // убираем кнопку возврата
             chats[0].style.display = 'flex'; // показываем первый чат
             chatButton[0].classList.add('active');
-            chatButton[i].style.display = 'flex'; 
+            chatButton[i].style.display = 'flex';
         }
         fullScreen()
     }
@@ -76,9 +76,3 @@ function mobileVersion() {
 }
 
 mobileVersion();
-
-
-
-
-
-// console.log(window.innerWidth);
