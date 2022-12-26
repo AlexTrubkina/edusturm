@@ -3,3 +3,5 @@
 .eslintrc.yml
 
 .DS_Store
+
+/.idea
