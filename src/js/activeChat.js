@@ -30,14 +30,14 @@ fullScreen();
 
 
 onresize = (event) => {
-    if (window.innerWidth >= 768 && chatButton[0].style.display === 'none'){
+    if (window.innerWidth >= 768 && chatButton[0].style.display === 'none') {
         for (let i = 0; i < chatButton.length; i++) {
             chatButton[i].style.display = 'flex'; // показываем все кнопки
             returnButton.style.display = 'none'; // убираем кнопку возврата
         }
         fullScreen();
     }
-    if (window.innerWidth <= 767) { // при переключении на моб версию
+    if (window.innerWidth <= 767 && chatButton[0].style.display !== 'none') { // при переключении на моб версию
         mobileVersion();
     }
     if (window.innerWidth >= 768) {
@@ -52,7 +52,6 @@ function mobileVersion() {
     if (window.innerWidth <= 767) {
         for (let i = 0; i < chatButton.length; i++) {
             chats[i].style.display = 'none'; // убираем все чаты
-            chatButton[i].classList.remove('active'); // убираем все активные кнопки
             chatButton[i].onclick = clickButton => {
                 returnButton.style.display = 'flex'; // при переходе в чат показывaем кнопку возврата
                 chats[i].style.display = 'flex'; // показываем текущий чат
