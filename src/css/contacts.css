@@ -71,3 +71,13 @@
         font-size: 14px;
     }
 }
+
+@media (max-width: 300px) {
+    .contacts-button {
+        width: 100%;
+    }
+
+    .conditions {
+        width: 100%;
+    }
+}
