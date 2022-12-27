@@ -99,3 +99,16 @@
         display: none;
     }
 }
+
+@media (max-width: 350px) {
+    .head-course-button {
+        width: 100%;
+    }
+    .price {
+        font-size: 2rem !important;
+    }
+
+    .rate {
+        height: 100% !important;
+    }
+}
