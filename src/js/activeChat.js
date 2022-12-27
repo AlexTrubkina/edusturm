@@ -42,6 +42,15 @@ onresize = (event) => {
     }
     if (window.innerWidth >= 768) {
         returnButton.style.display = 'none';
+        let count = 0;
+        for (let i = 0; i < chatButton.length; i++) {
+            if (chats[i].style.display === 'none') { // считаем количество непоказанных чатов
+                count ++
+            }
+        }
+        if (count === chats.length) { // если ни один чат не показан, показываем первый 
+            chats[0].style.display = 'flex';
+        }
         fullScreen();
     }
 };
