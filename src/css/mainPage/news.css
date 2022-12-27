@@ -75,6 +75,15 @@
     }
 }
 
+@media (max-width: 320px) {
+    #carouselNews .card {
+        width: 100% !important;
+    }
+    #carouselNews .carousel-indicators  {
+        top: 420px;
+    }
+}
+
 #carouselNews .carousel-inner {
     padding: 1em;
 }

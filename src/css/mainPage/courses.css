@@ -90,3 +90,9 @@
         height: 90px;
     }
 }
+
+@media (max-width: 350px) {
+    .course {
+        width: 100% !important;
+    }
+}
