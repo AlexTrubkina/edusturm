@@ -1,7 +1,4 @@
 const chatButton = document.querySelectorAll('.chat-item');
-const chatFirst = document.querySelector('.chat-first');
-const chatSecond = document.querySelector('.chat-second');
-const chatThird = document.querySelector('.chat-third');
 const chats = document.querySelectorAll('.chat');
 
 const returnButton = document.querySelector('.return-mobile');
@@ -48,7 +45,7 @@ onresize = (event) => {
                 count ++
             }
         }
-        if (count === chats.length) { // если ни один чат не показан, показываем первый 
+        if (count === chats.length) { // если ни один чат не показан, показываем первый
             chats[0].style.display = 'flex';
         }
         fullScreen();
