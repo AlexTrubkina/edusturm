@@ -31,17 +31,28 @@
     margin-bottom: 10%;
 }
 
+.carousel-rates-container {
+    width: 19rem;
+}
+
+#carouselRates .carousel-indicators {
+    top: 100%;
+}
+
 @media (max-width: 991px) {
     .rates {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    #carouselRates {
+        display: none;
     }
 }
 
 @media (max-width: 320px) {
-    .rate {
+    .rate, .carousel-rates-container {
         width: 100%;
     }
 
