@@ -57,8 +57,8 @@
     color: #696E76;
 }
 
-.table-responsive {
-    height: 300px;
+.fixed-height-table {
+    height: 350px;
     overflow: auto
 }
 
