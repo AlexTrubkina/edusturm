@@ -1,11 +1,11 @@
-new Chart(document.getElementById("doughnut-chart"), {
+const ctx = new Chart(document.getElementById("doughnut-chart"), {
     type: 'doughnut',
     data: {
         labels: ["Приятель", "Дружище", "БРО", "Отслеживают"],
         datasets: [{
             label: "Чел.",
             backgroundColor: ["#FBAE3C", "#232745", "#96446E", "#F17C53"],
-            data: [13, 10, 2, 4]
+            data: [13, 8, 2, 4]
         }]
     },
     options: {
@@ -20,7 +20,7 @@ new Chart(document.getElementById("doughnut-chart"), {
             },
             subtitle: {
                 display: true,
-                text: '29 чел',
+                text: '',
                 align: 'start',
                 color: 'black',
                 font: {
@@ -53,3 +53,18 @@ new Chart(document.getElementById("doughnut-chart"), {
 
     },
 });
+
+const subtitle = () => {
+    const data = ctx.data.datasets[0].data;
+    const sum = data.reduce((partialSum, a) => partialSum + a, 0);
+    ctx.options.plugins.subtitle.text = sum;
+    if (sum % 10 > 1 && sum % 10 < 5) {
+        ctx.options.plugins.subtitle.text = String(sum) + " человека";
+    }
+    else {
+        ctx.options.plugins.subtitle.text = String(sum) + " человек";
+    }
+    ctx.update();
+}
+ 
+subtitle();
