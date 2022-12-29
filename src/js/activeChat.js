@@ -50,11 +50,11 @@ onresize = (event) => {
             }
         }
         if (count === chats.length) { // если ни один чат не показан, показываем первый
-            chats[0].style.display = 'flex';
+            chats[0].style.display = 'flex'; 
             chatButton[0].classList.add('active');
         }
         else {
-            chatButton[activeMobileChat].classList.add('active');
+            chatButton[activeMobileChat].classList.add('active'); // если чат показан, доваляем активный индикатор этого чата
         }
         fullScreen();
     }
@@ -70,7 +70,6 @@ function mobileVersion() {
             chatButton[i].onclick = clickButton => {
                 returnButton.style.display = 'flex'; // при переходе в чат показывaем кнопку возврата
                 chats[i].style.display = 'flex'; // показываем текущий чат
-                // chatButton[i].classList.add('active');
                 temp = i;
                 for (let j = 0; j < chatButton.length; j++) {
                     chatButton[j].classList.remove('active');

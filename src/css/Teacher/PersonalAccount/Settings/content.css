@@ -8,3 +8,11 @@
 textarea {
     height: 400px;
 }
+
+input[type="file"] {
+    display: none;
+}
+
+.add-pic {
+    cursor: pointer;
+}
