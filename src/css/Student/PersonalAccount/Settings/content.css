@@ -62,9 +62,11 @@
     .mobile-header {
         display: none;
     }
+
+
     .content-personal-account,
     .student-settings-input {
-        width: 75%;
+        width: 78%;
     }
 
 }
