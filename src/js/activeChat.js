@@ -40,13 +40,21 @@ onresize = (event) => {
     if (window.innerWidth >= 768) {
         returnButton.style.display = 'none';
         let count = 0;
+        let activeMobileChat = 0;
         for (let i = 0; i < chatButton.length; i++) {
             if (chats[i].style.display === 'none') { // считаем количество непоказанных чатов
                 count ++
             }
+            else {
+                activeMobileChat = i;
+            }
         }
         if (count === chats.length) { // если ни один чат не показан, показываем первый
             chats[0].style.display = 'flex';
+            chatButton[0].classList.add('active');
+        }
+        else {
+            chatButton[activeMobileChat].classList.add('active');
         }
         fullScreen();
     }
