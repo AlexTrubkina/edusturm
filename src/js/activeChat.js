@@ -66,10 +66,11 @@ function mobileVersion() {
     if (window.innerWidth <= 767) {
         for (let i = 0; i < chatButton.length; i++) {
             chats[i].style.display = 'none'; // убираем все чаты
+            chatButton[i].classList.remove('active');
             chatButton[i].onclick = clickButton => {
                 returnButton.style.display = 'flex'; // при переходе в чат показывaем кнопку возврата
                 chats[i].style.display = 'flex'; // показываем текущий чат
-                chatButton[i].classList.add('active');
+                // chatButton[i].classList.add('active');
                 temp = i;
                 for (let j = 0; j < chatButton.length; j++) {
                     chatButton[j].classList.remove('active');
