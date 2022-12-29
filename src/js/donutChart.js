@@ -57,7 +57,6 @@ const ctx = new Chart(document.getElementById("doughnut-chart"), {
 const subtitle = () => {
     const data = ctx.data.datasets[0].data;
     const sum = data.reduce((partialSum, a) => partialSum + a, 0);
-    ctx.options.plugins.subtitle.text = sum;
     if (sum % 10 > 1 && sum % 10 < 5) {
         ctx.options.plugins.subtitle.text = String(sum) + " человека";
     }
