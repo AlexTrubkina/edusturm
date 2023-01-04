@@ -12,6 +12,10 @@
     font-family: Montserrat, sans-serif;
 }
 
+legend {
+    font-family: Montserrat-Bold, bold;
+}
+
 .signin-block {
     display: flex;
     flex-direction: row;
