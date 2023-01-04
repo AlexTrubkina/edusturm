@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Montserrat";
-    src: url('../../../../../fonts/fonts/Montserrat-Regular.ttf');
+    src: url("../../../../../fonts/fonts/Montserrat-Regular.ttf");
 }
 
 @font-face {
     font-family: "Montserrat-SemiBold";
-    src: url('../../../../../fonts/fonts/Montserrat-SemiBold.ttf');
+    src: url("../../../../../fonts/fonts/Montserrat-SemiBold.ttf");
 }
 
 * {
@@ -19,12 +19,12 @@
 .course-face {
     display: flex;
     flex-direction: row;
-    background: #F4F4F4;
+    background: #f4f4f4;
     border-radius: 20px;
     justify-content: space-between;
     padding: 5% 3% 5%;
     height: 100%;
-    margin-bottom:  5%;
+    margin-bottom: 5%;
 }
 
 .description-course {
@@ -65,14 +65,12 @@
 }
 
 @media (max-width: 1199px) {
-
     .description-course h1 {
         font-size: 2rem;
     }
 
     .text-course {
         font-size: 0.9rem;
-
     }
 
     .description-course {
@@ -82,7 +80,6 @@
     .img-computer {
         width: 40%;
     }
-
 }
 
 @media (min-width: 768px) {
@@ -123,5 +120,13 @@
 @media (max-width: 330px) {
     .course-face button {
         width: 100%;
+    }
+}
+
+@media (max-width: 300px) {
+    .description-course h1,
+    .teachers-header,
+    .modules-header {
+        font-size: 1.5rem;
     }
 }
