@@ -18,7 +18,7 @@
 }
 
 .recommend-course-header {
-    font-family: Montserrat-Bold, sans-serif
+    font-family: Montserrat-Bold, sans-serif;
 }
 
 .description-course h1 {
@@ -105,5 +105,9 @@
 @media (max-width: 330px) {
     .course-face button {
         width: 100%;
+    }
+
+    .description-course h1 {
+        font-size: 1.5rem;
     }
 }
