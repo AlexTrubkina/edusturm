@@ -53,8 +53,8 @@ onresize = (event) => {
             }
             if (chats[index].style.display !== 'none') {
                 activeMobileChat = index;
-                console.log(chats[index].style.display);
-                console.log(index, chats[index].style.display !== 'none');
+                // console.log(chats[index].style.display);
+                // console.log(index, chats[index].style.display !== 'none');
             }
         }
         if (count === length) { // если ни один чат не показан, показываем первый

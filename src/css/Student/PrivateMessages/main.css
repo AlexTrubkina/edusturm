@@ -29,7 +29,7 @@
     gap: 20px;
     overflow-y: auto;
     width: 40%;
-    height: calc(100vh - 500px);
+    height: 500px;
 }
 
 .chat-list::-webkit-scrollbar {
