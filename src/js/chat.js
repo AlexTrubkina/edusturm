@@ -1,14 +1,14 @@
 // отправка сообщения после нажатия на кнопку
-let cardBody = document.querySelector(".card-body");
+
 (function () {
     const cards = document.querySelectorAll(".card");
-    const anchor = document.querySelector(".anchor");
     // если на странице больше одного чата
     cards.forEach((item, i) => {
-        const input = item.querySelector("input");
+        const input = item.querySelector("input"); 
         input.addEventListener("keydown", function (e) {
             if (e.key === 'Enter') {
                 const cardBody = item.querySelector(".card-body");
+                const anchor = item.querySelector(".anchor");
                 if (this.value !== "") {
                     const parentBlock = document.createElement("div");
                     parentBlock.className =
