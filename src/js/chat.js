@@ -7,8 +7,8 @@
         const input = item.querySelector("input"); 
         input.addEventListener("keydown", function (e) {
             if (e.key === 'Enter') {
-                const cardBody = item.querySelector(".card-body");
-                const anchor = item.querySelector(".anchor");
+                const cardBody = item.querySelector(".card-body"); //родительский блок определенного чата
+                const anchor = item.querySelector(".anchor"); // якорь определенного чата
                 if (this.value !== "") {
                     const parentBlock = document.createElement("div");
                     parentBlock.className =
@@ -23,12 +23,12 @@
                     parentBlock.appendChild(userMessage);
                     parentBlock.appendChild(img);
                     // console.log(parentBlock);
-                    cardBody.insertBefore(parentBlock, anchor);
+                    cardBody.insertBefore(parentBlock, anchor); // добавляем блок перед якорем
                     // newMessage = `<div class="chat-user justify-content-end align-items-center w-100 mb-3">
                     //                     <div class="chat-user-message" >` + this.value + `</div><img src="../../../images/avatar.png" alt="Avatar"></div>`
                     // cardBody.innerHTML += newMessage;
                     this.value = "";
-                    cardBody.scrollTo(0, cardBody.scrollHeight);
+                    cardBody.scrollTo(0, cardBody.scrollHeight); //скролл вниз после отправки сообщения 
                 }
             }
         });
