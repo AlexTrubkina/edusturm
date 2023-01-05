@@ -248,7 +248,7 @@
 @media (min-width: 768px) {
 
     .chat-list {
-        padding-right: 3%;
+        margin-right: 3%;
     }
 
     .navbar-mobile {
